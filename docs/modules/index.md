@@ -11,11 +11,11 @@ Five modules, one per [competency domain](https://github.com/iwyusdaz/tutor-trai
 
 | # | Module | Domain | Minutes |
 |---|---|---|---|
-| 1 | [Your role and relationships](modules/1-your-role-and-relationships/) | Relationships | ~20 |
-| 2 | [The 30-minute session](modules/2-the-30-minute-session/) | Session structure | ~25 |
-| 3 | [Questions, wait time and errors](modules/3-questions-wait-time-and-errors/) | Questioning and errors | ~25 |
-| 4 | [Feedback and motivation](modules/4-feedback-and-motivation/) | Feedback and motivation | ~20 |
-| 5 | [Using exit tickets and data](modules/5-using-exit-tickets-and-data/) | Data use | ~25 |
+| 1 | [Your role and relationships](1-your-role-and-relationships.md) | Relationships | ~20 |
+| 2 | [The 30-minute session](2-the-30-minute-session.md) | Session structure | ~25 |
+| 3 | [Questions, wait time and errors](3-questions-wait-time-and-errors.md) | Questioning and errors | ~25 |
+| 4 | [Feedback and motivation](4-feedback-and-motivation.md) | Feedback and motivation | ~20 |
+| 5 | [Using exit tickets and data](5-using-exit-tickets-and-data.md) | Data use | ~25 |
 | — | [Safeguarding (placeholder)](safeguarding.md) | — | per your organization |
 
 {: .warning }
