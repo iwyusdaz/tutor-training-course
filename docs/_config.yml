@@ -1,0 +1,53 @@
+# Jekyll configuration — Bridge Math Tutoring tutor training program
+# NOTE: this file lives INSIDE docs/ because GitHub Pages is configured to
+# build from the /docs folder on the main branch (a sibling repo found that
+# a root-level _config.yml is ignored in that setup).
+title: Bridge Tutor Academy
+description: "A blended training program that prepares new tutors to deliver high-impact math tutoring with consistency — self-paced modules, annotated transcripts, role-play, an observation rubric, a coaching cycle and fidelity metrics. Bridge Math Tutoring is a fictional organization."
+theme: null
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+
+url: https://iwyusdaz.github.io
+baseurl: /tutor-training-course
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Just the Docs navigation
+nav_sort: order
+search_enabled: true
+
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: >-
+  Content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>;
+  code licensed <a href="https://opensource.org/license/mit">MIT</a>.
+  Bridge Math Tutoring is a fictional organization; all transcripts are fictional and constructed for training purposes.
+
+gh_edit_link: false
+
+# Exclude from the Pages build
+exclude:
+  - node_modules/
+  - dry-run/
+  - package.json
+  - "*.tmp"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+color_scheme: light
+
+# Every Markdown page uses the `page` layout with the fictional-data disclaimer.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
