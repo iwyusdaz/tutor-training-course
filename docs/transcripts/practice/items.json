@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "title": "Spot the move",
+    "moveNames": ["probing question", "hint ladder (levels 0\u20135)", "wait time", "specific feedback", "worked example after repeated failure", "confirm and ask why", "offer a similar problem"],
+    "note": "Move names and hint-ladder levels match spec/pedagogy-rules.md v1.0 of the Socratic AI Tutor (repo 03), 2026-10-25. All exchanges are fictional, constructed for training purposes, drawn from the transcript library."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "source": "Transcript T1 \u00b7 strong session \u00b7 guided practice",
+      "transcript": "../t1.html",
+      "exchange": [
+        "Tutor: New problem on the board: 2(x \u2212 4) + 3 = 11. Before I say anything \u2014 Amara, what do you notice?",
+        "Amara: There's parentheses and a plus 3."
+      ],
+      "options": [
+        { "text": "probing question", "correct": true },
+        { "text": "wait time" },
+        { "text": "confirm and ask why" },
+        { "text": "none of these \u2014 the tutor explained first" }
+      ],
+      "effectiveness": "yes",
+      "feedback": "This is a probing question \u2014 ladder level 0. The tutor's first move hands the problem to the student ('what do you notice?'), which starts the diagnosis before any explanation. Contrast with the weak sessions: T5 opens with a 90-second monologue and never asks."
+    },
+    {
+      "id": "q2",
+      "source": "Transcript T1 \u00b7 strong session \u00b7 guided practice",
+      "transcript": "../t1.html",
+      "exchange": [
+        "Luis: \u2026plus 5 both sides? So 2x = 16.",
+        "Tutor: (says nothing for about four seconds)",
+        "Luis: \u2026and the sign flips because we're subtracting minus 5."
+      ],
+      "options": [
+        { "text": "wait time", "correct": true },
+        { "text": "probing question" },
+        { "text": "specific feedback" },
+        { "text": "none of these \u2014 the tutor left the student stuck" }
+      ],
+      "effectiveness": "yes",
+      "feedback": "Wait time: 3\u20135 seconds of silence after a question or a student's half-answer. The tutor resists confirming, prompting, or rephrasing the question into a giveaway \u2014 and the student finishes the reasoning himself. In T6, by contrast, the tutor talks over the student's 'But\u2014' within one second."
+    },
+    {
+      "id": "q3",
+      "source": "Transcript T2 \u00b7 strong session \u00b7 third failure on the same step",
+      "transcript": "../t2.html",
+      "exchange": [
+        "Mei: Mine keeps coming out wrong. (third failed attempt at the \u22123 move) I keep getting positive 3. This is stupid.",
+        "Tutor: It's not stupid \u2014 that \u22123 is genuinely the sneakiest part of this problem type, and you're in good company. New plan: watch me do one like it, all the way through, and your only job is to catch the moment the \u22123 gets handled."
+      ],
+      "options": [
+        { "text": "worked example after repeated failure", "correct": true },
+        { "text": "hint ladder (levels 0\u20135)" },
+        { "text": "confirm and ask why" },
+        { "text": "specific feedback" }
+      ],
+      "effectiveness": "yes",
+      "feedback": "Worked example after repeated failure \u2014 the ladder's L4. After ~three failures on the same step, more hints stop helping; the tutor resets the emotion first ('not stupid \u2026 good company'), works a SIMILAR problem fully (never the student's own), narrates the exact step that keeps failing, then hands the original back. T2 shows the hand-back; without it, worked examples entertain instead of transfer."
+    },
+    {
+      "id": "q4",
+      "source": "Transcript T3 \u00b7 mixed session \u00b7 check that failed",
+      "transcript": "../t3.html",
+      "exchange": [
+        "Tutor: Recompute the check with x = 4: left is 3(4) + 7 = 19. Right is 2(4) + 19\u2026",
+        "Jayla: 27."
+      ],
+      "options": [
+        { "text": "probing question" },
+        { "text": "wait time" },
+        { "text": "none of these \u2014 the tutor did the arithmetic for the student", "correct": true },
+        { "text": "specific feedback" }
+      ],
+      "effectiveness": "partly",
+      "feedback": "None of the seven moves: the tutor computed FOR the student ('left is 3(4) + 7 = 19') instead of asking her to compute. It kept the session moving and the thinking partly alive \u2014 hence 'partly' \u2014 but Jayla's role shrank to reading numbers. The stronger line: 'Compute both sides with x = 4 \u2014 what do you get?'"
+    },
+    {
+      "id": "q5",
+      "source": "Transcript T4 \u00b7 mixed session \u00b7 two correct answers",
+      "transcript": "../t4.html",
+      "exchange": [
+        "Priya: Subtract 5 both sides: 3x = 15. Divide by 3: x = 5.",
+        "Tutor: Good job! \u2026 Camila: x = 5! \u2014 Tutor: Nice work!"
+      ],
+      "options": [
+        { "text": "specific feedback" },
+        { "text": "none of these \u2014 generic praise, not specific feedback", "correct": true },
+        { "text": "confirm and ask why" },
+        { "text": "probing question" }
+      ],
+      "effectiveness": "no",
+      "feedback": "Not specific feedback \u2014 it's generic praise, and the distinction matters: specific feedback names WHAT in the work was right ('you subtracted before dividing, so the coefficient stayed clean'), which the student can then repeat. 'Good job' could be said to any student for anything \u2014 so it teaches nothing and quietly certifies that approval, not understanding, is the currency."
+    },
+    {
+      "id": "q6",
+      "source": "Transcript T5 \u00b7 weak session \u00b7 the opening",
+      "transcript": "../t5.html",
+      "exchange": [
+        "Tutor: \u2026today we're doing equations with parentheses, which look scary but are actually the easiest kind once you see the trick, because all you do is distribute first, and distributing just means multiplying the outside number by everything inside\u2026 (continues, uninterrupted, for about 90 seconds)"
+      ],
+      "options": [
+        { "text": "probing question" },
+        { "text": "worked example after repeated failure" },
+        { "text": "hint ladder (levels 0\u20135)" },
+        { "text": "none of these \u2014 a solution monologue with no question", "correct": true }
+      ],
+      "effectiveness": "no",
+      "feedback": "None of the moves: this is over-explaining \u2014 every fact correct, every student passive. Ladder level 0 exists precisely for the start of a problem: 'What have you tried?' or 'What do you notice?' The attempt is the diagnosis. In T5 the students produce nothing for nine minutes; in T1 the same content starts with a student noticing."
+    },
+    {
+      "id": "q7",
+      "source": "Transcript T5 \u00b7 weak session \u00b7 the one real error",
+      "transcript": "../t5.html",
+      "exchange": [
+        "Imani: 2(x \u2212 4) = 2x \u2212 4\u2026 I think so?",
+        "Tutor: You're close, but no \u2014 when you distribute, the 2 has to multiply both things inside, so it's 2x \u2212 8, not 2x \u2212 4. Let me write it: 2 times \u22124 is \u22128. Okay?"
+      ],
+      "options": [
+        { "text": "probing question" },
+        { "text": "confirm and ask why" },
+        { "text": "none of these \u2014 the tutor named and corrected the error", "correct": true },
+        { "text": "worked example after repeated failure" }
+      ],
+      "effectiveness": "no",
+      "feedback": "This is correcting the error outright \u2014 the tutor names the misconception, performs the fix, and ends with 'Okay?' (approval-seeking). The rule it breaks: expose, don't correct. 'What did the 2 multiply?' points the student at the exact spot and lets HER find \u22128. Self-found fixes stick; received fixes evaporate by Thursday."
+    },
+    {
+      "id": "q8",
+      "source": "Transcript T6 \u00b7 weak session \u00b7 Aaliyah's sign error",
+      "transcript": "../t6.html",
+      "exchange": [
+        "Aaliyah: For 7x \u2212 2 = 4x + 10, I got x = 2\u2026 but the check doesn't work?",
+        "Tutor: Let me look \u2014 oh, you did 7x \u2212 4x and then moved the 2 but added it: 3x + 2 = 10, that's your bug, it should be minus 2 both sides, so 3x = 12, x = 4. Check it now."
+      ],
+      "options": [
+        { "text": "none of these \u2014 diagnosed, corrected, and solved by the tutor", "correct": true },
+        { "text": "probing question" },
+        { "text": "hint ladder (levels 0\u20135)" },
+        { "text": "specific feedback" }
+      ],
+      "effectiveness": "no",
+      "feedback": "Three violations in six seconds: the error is named ('that's your bug'), the fix is executed by the tutor, and the student's role is reduced to re-checking someone else's solution. This is the answer-for-the-student failure mode. The ladder's L1\u2013L2 exist for exactly this moment: 'When you moved the \u22122, what did you do to both sides?' \u2014 Aaliyah would have met the subtraction meaning of 'moving terms' instead of collecting another patched rule."
+    },
+    {
+      "id": "q9",
+      "source": "Transcript T2 \u00b7 strong session \u00b7 after Mei's breakthrough",
+      "transcript": "../t2.html",
+      "exchange": [
+        "Mei: \u2026minus 5 both sides: 4x = \u22128. x = \u22122. (checks) \u221211 and \u221211!",
+        "Tutor: You did the whole ladder yourself. Why subtract the 5 and not add it?"
+      ],
+      "options": [
+        { "text": "confirm and ask why", "correct": true },
+        { "text": "specific feedback" },
+        { "text": "probing question" },
+        { "text": "offer a similar problem" }
+      ],
+      "effectiveness": "yes",
+      "feedback": "Confirm and ask why: brief confirmation ('you did the whole ladder yourself') followed by ONE why-question. The why at the moment of success is where understanding consolidates \u2014 and then the tutor moves on, rather than interrogating a right answer. The very next line of T2 is the other half of the chain: 'One more, same shape\u2026' \u2014 the offer of a similar problem."
+    },
+    {
+      "id": "q10",
+      "source": "Transcript T1 \u00b7 strong session \u00b7 independent try",
+      "transcript": "../t1.html",
+      "exchange": [
+        "Tutor: Same shape, new numbers: 3(x + 2) \u2212 5 = 16. Solo, four minutes \u2014 I'm not talking. If you finish, check by substituting."
+      ],
+      "options": [
+        { "text": "offer a similar problem", "correct": true },
+        { "text": "worked example after repeated failure" },
+        { "text": "wait time" },
+        { "text": "probing question" }
+      ],
+      "effectiveness": "yes",
+      "feedback": "Offer a similar problem after a solved one \u2014 same structure, one small variation \u2014 as a quiet test of whether the method (not just this answer) transferred. 'I'm not talking' is the point: the offer keeps ownership with the student, and the silence is what makes the transfer evidence real. T6's 'speed round' is the corrupted version: racing, not transferring."
+    }
+  ]
+}
