@@ -1,0 +1,159 @@
+- main:
+  - heading "Annotated transcripts" [level=1]:
+    - link "Annotated transcripts":
+      - /url: "#annotated-transcripts"
+    - text: Annotated transcripts
+  - paragraph:
+    - strong: All six transcripts are fictional and constructed for training purposes.
+    - text: They are not recordings of real children; tutor and student names are invented. They are built from documented middle-school algebra misconceptions so that the errors students make in them are the errors real tutors will meet — the misconception research behind that choice is cited in the
+    - link "evidence notes":
+      - /url: https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md
+    - text: . A structured realism review (agent-based; practitioner review pending) checked each transcript against that research — see
+    - link "evaluation methods":
+      - /url: https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/METHODS.md
+    - text: .
+  - heading "Why transcripts instead of videos" [level=2]:
+    - link "Why transcripts instead of videos":
+      - /url: "#why-transcripts-instead-of-videos"
+    - text: Why transcripts instead of videos
+  - paragraph:
+    - text: Videos of real sessions would show real children — a privacy problem, and a consent problem minors can’t meaningfully opt out of. Written fictional transcripts are private by construction, searchable, annotatable, and screen-reader accessible. They are also
+    - emphasis: editable
+    - text: ": trainers can adapt a transcript to their local curriculum without re-filming."
+  - heading "The annotation format" [level=2]:
+    - link "The annotation format":
+      - /url: "#the-annotation-format"
+    - text: The annotation format
+  - paragraph:
+    - text: Each transcript is a dialogue between the tutor and 2–4 students, broken into exchanges.
+    - strong: Numbered annotations follow each exchange
+    - text: — never floating in a margin — and name the move the tutor used (e.g.,
+    - emphasis: probing question
+    - text: ","
+    - emphasis: wait time
+    - text: ","
+    - emphasis: confirm and ask why
+    - text: ), which
+    - link "competency domain":
+      - /url: https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md
+    - text: it serves, and what an observer would look for. Move names and hint-ladder levels (0–5) are shared with the companion
+    - link "Socratic AI Tutor":
+      - /url: https://iwyusdaz.github.io/socratic-ai-tutor/
+    - text: project — same moves, encoded for an AI.
+  - heading "The library" [level=2]:
+    - link "The library":
+      - /url: "#the-library"
+    - text: The library
+  - table:
+    - rowgroup:
+      - row "# Transcript Verdict The one thing it teaches":
+        - columnheader "#"
+        - columnheader "Transcript"
+        - columnheader "Verdict"
+        - columnheader "The one thing it teaches"
+    - rowgroup:
+      - row "T1 Routine holding together Strong The first 3 minutes + a closed data loop":
+        - cell "T1":
+          - link "T1":
+            - /url: /tutor-training-course/transcripts/t1.html
+        - cell "Routine holding together"
+        - cell "Strong"
+        - cell "The first 3 minutes + a closed data loop"
+      - row "T2 A student stuck in the same spot Strong Worked example after repeated failure (L4), done right":
+        - cell "T2":
+          - link "T2":
+            - /url: /tutor-training-course/transcripts/t2.html
+        - cell "A student stuck in the same spot"
+        - cell "Strong"
+        - cell "Worked example after repeated failure (L4), done right"
+      - 'row "T3 Questioning strong, data loop broken Mixed Good teaching ≠ a good program: the ticket matters"':
+        - cell "T3":
+          - link "T3":
+            - /url: /tutor-training-course/transcripts/t3.html
+        - cell "Questioning strong, data loop broken"
+        - cell "Mixed"
+        - 'cell "Good teaching ≠ a good program: the ticket matters"'
+      - row "T4 Structure intact, feedback generic Mixed “Good job” ×20 teaches nothing; the M5 door opens and closes":
+        - cell "T4":
+          - link "T4":
+            - /url: /tutor-training-course/transcripts/t4.html
+        - cell "Structure intact, feedback generic"
+        - cell "Mixed"
+        - cell "“Good job” ×20 teaches nothing; the M5 door opens and closes"
+      - 'row "T5 The tutor explains everything Weak Over-explaining: prepared, warm — and the students never think"':
+        - cell "T5":
+          - link "T5":
+            - /url: /tutor-training-course/transcripts/t5.html
+        - cell "The tutor explains everything"
+        - cell "Weak"
+        - 'cell "Over-explaining: prepared, warm — and the students never think"'
+      - row "T6 The tutor answers for the students Weak No wait time, ladder skipped, speed as the prize":
+        - cell "T6":
+          - link "T6":
+            - /url: /tutor-training-course/transcripts/t6.html
+        - cell "The tutor answers for the students"
+        - cell "Weak"
+        - cell "No wait time, ladder skipped, speed as the prize"
+  - paragraph:
+    - strong: "Suggested sequence for new tutors:"
+    - text: T1 → T5 → T2 → T6 → then
+    - link "spot-the-move practice":
+      - /url: /tutor-training-course/transcripts/practice/index.html
+    - text: ", then T3 + T4 when your first observation is scheduled (they show why the rubric scores domains separately)."
+  - heading "Using transcripts in training" [level=2]:
+    - link "Using transcripts in training":
+      - /url: "#using-transcripts-in-training"
+    - text: Using transcripts in training
+  - list:
+    - listitem:
+      - text: •
+      - strong: "Spot-the-move (interactive):"
+      - link "practice tool":
+        - /url: /tutor-training-course/transcripts/practice/index.html
+      - text: — 10 exchanges from this library; you name the move and whether it worked; feedback explains why. Nothing you answer is stored.
+    - listitem:
+      - text: •
+      - strong: "Live sessions:"
+      - link "Session A":
+        - /url: /tutor-training-course/live-practice/session-a.html
+      - text: and
+      - link "Session B":
+        - /url: /tutor-training-course/live-practice/session-b.html
+      - text: facilitator guides use T1/T2/T5/T6 excerpts as role-play material.
+    - listitem:
+      - text: •
+      - strong: "Calibration:"
+      - text: coordinators score T1, T3 and T5 against the
+      - link "observation rubric":
+        - /url: /tutor-training-course/coaching/observation-rubric.html
+      - text: and compare scores — the
+      - link "calibration activity":
+        - /url: /tutor-training-course/coaching/calibration-activity.html
+      - text: protocol.
+  - separator
+  - heading "Table of contents" [level=2]
+  - list:
+    - listitem:
+      - text: •
+      - 'link "Transcript T2: A strong session — a student stuck in the same spot"':
+        - /url: /tutor-training-course/transcripts/t2.html
+    - listitem:
+      - text: •
+      - 'link "Transcript T3: A mixed session — questioning strong, data loop broken"':
+        - /url: /tutor-training-course/transcripts/t3.html
+    - listitem:
+      - text: •
+      - 'link "Transcript T4: A mixed session — structure intact, feedback generic"':
+        - /url: /tutor-training-course/transcripts/t4.html
+    - listitem:
+      - text: •
+      - 'link "Transcript T5: A weak session — the tutor explains everything"':
+        - /url: /tutor-training-course/transcripts/t5.html
+    - listitem:
+      - text: •
+      - 'link "Transcript T6: A weak session — the tutor answers for the students"':
+        - /url: /tutor-training-course/transcripts/t6.html
+    - listitem:
+      - text: •
+      - link "Spot the move (practice)":
+        - /url: /tutor-training-course/transcripts/practice/index.html

@@ -10,16 +10,23 @@
     color: inherit;
     text-decoration: underline;
   }
+  /* Fix: long code blocks (e.g. the editable Mermaid source on the coaching
+     cycle page) overflowed the viewport at 320 px. Pre blocks scroll inside
+     themselves instead; the script below makes a scrollable one keyboard
+     accessible, as with table wrappers. */
+  pre {
+    overflow-x: auto;
+  }
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var wrappers = document.querySelectorAll(".table-wrapper");
+    var wrappers = document.querySelectorAll(".table-wrapper, pre");
     function makeFocusable(w) {
       var scrollable = w.scrollWidth > w.clientWidth + 1;
       if (scrollable) {
         w.setAttribute("tabindex", "0");
         if (!w.hasAttribute("role")) w.setAttribute("role", "region");
-        if (!w.hasAttribute("aria-label")) w.setAttribute("aria-label", "Scrollable table. Use arrow keys to scroll.");
+        if (!w.hasAttribute("aria-label")) w.setAttribute("aria-label", w.tagName === "PRE" ? "Scrollable code block. Use arrow keys to scroll." : "Scrollable table. Use arrow keys to scroll.");
       } else {
         w.removeAttribute("tabindex");
         w.removeAttribute("role");

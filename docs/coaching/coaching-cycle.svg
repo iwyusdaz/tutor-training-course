@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1120" role="img" aria-labelledby="cc-title cc-desc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="cc-title">The coaching cycle as a flowchart</title>
+  <desc id="cc-desc">Six steps in a loop: Observation, Coach prep, Debrief within 48 hours, Micro-practice, Two weeks of real sessions, Re-observe. After re-observation, a focus move that landed leads to a new strength named and the next domain, and the loop repeats; a move not yet landed returns to the same focus move with different support, then back to the real sessions.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <style>
+    .node { fill: #f2f4f8; stroke: #8b949e; stroke-width: 1.5; rx: 8; }
+    .node-title { font-size: 19px; font-weight: 700; fill: #1f2328; }
+    .node-sub { font-size: 15px; fill: #57606a; }
+    .edge { fill: none; stroke: #57606a; stroke-width: 2; marker-end: url(#arrow); }
+    .branch { font-size: 14px; font-weight: 600; fill: #1f2328; }
+    .lane { fill: #fafbfc; stroke: #d0d7de; stroke-width: 1; stroke-dasharray: 4 4; }
+    .lane-label { font-size: 14px; font-weight: 700; fill: #57606a; }
+  </style>
+
+  <!-- main column x: 250..690 (center 470) -->
+  <!-- A -->
+  <rect class="node" x="250" y="30" width="440" height="84" rx="8"/>
+  <text class="node-title" x="470" y="64" text-anchor="middle">1 · Observation</text>
+  <text class="node-sub" x="470" y="90" text-anchor="middle">30 min, rubric ticks</text>
+
+  <!-- B -->
+  <rect class="node" x="250" y="160" width="440" height="110" rx="8"/>
+  <text class="node-title" x="470" y="194" text-anchor="middle">2 · Coach prep</text>
+  <text class="node-sub" x="470" y="219" text-anchor="middle">before debrief: rubric + tutor's</text>
+  <text class="node-sub" x="470" y="241" text-anchor="middle">self-reflection + tracker flags</text>
+
+  <!-- C -->
+  <rect class="node" x="250" y="316" width="440" height="110" rx="8"/>
+  <text class="node-title" x="470" y="350" text-anchor="middle">3 · Debrief within 48 h</text>
+  <text class="node-sub" x="470" y="375" text-anchor="middle">15 min, one strength</text>
+  <text class="node-sub" x="470" y="397" text-anchor="middle">+ one focus move</text>
+
+  <!-- D -->
+  <rect class="node" x="250" y="472" width="440" height="110" rx="8"/>
+  <text class="node-title" x="470" y="506" text-anchor="middle">4 · Micro-practice</text>
+  <text class="node-sub" x="470" y="531" text-anchor="middle">2-min role-play of the focus move,</text>
+  <text class="node-sub" x="470" y="553" text-anchor="middle">in the debrief itself</text>
+
+  <!-- E -->
+  <rect class="node" x="250" y="628" width="440" height="110" rx="8"/>
+  <text class="node-title" x="470" y="662" text-anchor="middle">5 · Two weeks of real sessions</text>
+  <text class="node-sub" x="470" y="687" text-anchor="middle">tutor runs the focus move;</text>
+  <text class="node-sub" x="470" y="709" text-anchor="middle">tracker + plan show the trail</text>
+
+  <!-- F -->
+  <rect class="node" x="250" y="784" width="440" height="84" rx="8"/>
+  <text class="node-title" x="470" y="818" text-anchor="middle">6 · Re-observe</text>
+  <text class="node-sub" x="470" y="844" text-anchor="middle">same domain, look-for named</text>
+
+  <!-- main column edges -->
+  <path class="edge" d="M 470 114 L 470 154"/>
+  <path class="edge" d="M 470 270 L 470 310"/>
+  <path class="edge" d="M 470 426 L 470 466"/>
+  <path class="edge" d="M 470 582 L 470 622"/>
+  <path class="edge" d="M 470 738 L 470 778"/>
+
+  <!-- G (landed) : right lane -->
+  <rect class="lane" x="740" y="40" width="200" height="620" rx="10"/>
+  <text class="lane-label" x="840" y="70" text-anchor="middle">landed</text>
+  <rect class="node" x="756" y="380" width="168" height="110" rx="8"/>
+  <text class="node-title" x="840" y="414" text-anchor="middle" font-size="17">New strength</text>
+  <text class="node-title" x="840" y="437" text-anchor="middle" font-size="17">named,</text>
+  <text class="node-title" x="840" y="460" text-anchor="middle" font-size="17">next domain</text>
+
+  <!-- H (not yet) : left lane -->
+  <rect class="lane" x="20" y="560" width="190" height="420" rx="10"/>
+  <text class="lane-label" x="115" y="590" text-anchor="middle">not yet</text>
+  <rect class="node" x="36" y="760" width="158" height="150" rx="8"/>
+  <text class="node-title" x="115" y="792" text-anchor="middle" font-size="16">Same focus</text>
+  <text class="node-title" x="115" y="814" text-anchor="middle" font-size="16">move, different</text>
+  <text class="node-title" x="115" y="836" text-anchor="middle" font-size="16">support:</text>
+  <text class="node-sub" x="115" y="861" text-anchor="middle" font-size="14">model it live,</text>
+  <text class="node-sub" x="115" y="881" text-anchor="middle" font-size="14">rehearse again</text>
+
+  <!-- branch edges from F -->
+  <path class="edge" d="M 690 826 C 760 826 840 700 840 496"/>
+  <text class="branch" x="760" y="812" text-anchor="middle">focus move landed</text>
+
+  <path class="edge" d="M 250 826 C 190 826 115 900 115 916"/>
+  <text class="branch" x="180" y="812" text-anchor="middle">not yet</text>
+
+  <!-- H back up to E (left side) -->
+  <path class="edge" d="M 115 760 C 115 700 180 683 244 683"/>
+
+  <!-- G back up to A (right side, full height) -->
+  <path class="edge" d="M 840 380 C 840 200 760 72 696 72"/>
+
+  <!-- loop back: F to A (cycle repeats) via the corridor between the left lane and the main column -->
+  <path class="edge" d="M 470 868 L 470 1040 L 232 1040 L 232 62 L 244 62"/>
+  <text class="branch" x="480" y="1044" text-anchor="start">the loop repeats</text>
+</svg>

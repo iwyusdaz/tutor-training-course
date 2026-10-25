@@ -2,7 +2,7 @@
 title: "Coaching cycle"
 parent: Coaching
 nav_order: 2
-description: The observe → debrief → focus move → micro-practice → re-observe cycle that runs every 2–3 weeks, with a Mermaid diagram and the full text version.
+description: The observe → debrief → focus move → micro-practice → re-observe cycle that runs every 2–3 weeks — rendered diagram, editable Mermaid source and full text version.
 ---
 
 # Coaching cycle
@@ -11,6 +11,10 @@ description: The observe → debrief → focus move → micro-practice → re-ob
 Every 2–3 weeks per tutor · 30-minute observation + 15-minute debrief · One strength, one focus move, every cycle
 
 ## The cycle
+
+![Flowchart of the coaching cycle: six steps in a loop — Observation, Coach prep, Debrief within 48 h, Micro-practice, Two weeks of real sessions, Re-observe. After re-observation the loop repeats; a focus move that landed leads to a new strength and the next domain, and a move not yet landed returns to the same move with different support.](coaching-cycle.svg)
+
+The diagram's editable source (Mermaid — GitHub Pages does not render it, so the SVG above is the published rendering; regenerate the SVG from this source if the cycle changes):
 
 ```mermaid
 flowchart TD
