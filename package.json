@@ -1,0 +1,19 @@
+{
+  "name": "tutor-training-course",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A blended training program preparing new tutors to deliver high-impact math tutoring with consistency: modules, annotated transcripts, role-play, an observation rubric, a coaching cycle and fidelity metrics.",
+  "type": "module",
+  "scripts": {
+    "eval:pending": "node evaluation/run-simulations.mjs && node evaluation/run-review-panel.mjs",
+    "eval:simulations": "node evaluation/run-simulations.mjs",
+    "eval:review-panel": "node evaluation/run-review-panel.mjs",
+    "eval:dry-run": "node evaluation/run-simulations.mjs --dry-run && node evaluation/run-review-panel.mjs --dry-run",
+    "test:keyboard": "node evaluation/keyboard-tests.mjs",
+    "test:aria": "node evaluation/aria-snapshot.mjs",
+    "verify": "node evaluation/keyboard-tests.mjs && node evaluation/aria-snapshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.57.0"
+  }
+}

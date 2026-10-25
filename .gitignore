@@ -1,0 +1,21 @@
+# Secrets (never commit; pipelines read this at runtime)
+.env
+
+# Dependencies
+node_modules/
+
+# OS artifacts
+.DS_Store
+
+# Dry-run output (stub data, never used as real results)
+dry-run/
+
+# Evaluation output regenerated per real run (summaries get committed by hand)
+evaluation/output/
+
+# Editor noise
+*.swp
+*.tmp
+
+# Local security-scanner state
+.mimosa/
