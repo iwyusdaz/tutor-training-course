@@ -1,0 +1,302 @@
+{
+  "url": "https://iwyusdaz.github.io/tutor-training-course/transcripts/t4.html",
+  "timestamp": "2026-10-25T22:01:29.298Z",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"nav-list-link active\">Transcript T4: A mixed session — structure intact, feedback generic</a>",
+                  "target": [
+                    ".active.nav-list-link"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"nav-list-link active\">Transcript T4: A mixed session — structure intact, feedback generic</a>",
+          "target": [
+            ".active.nav-list-link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<header class=\"side-bar\">",
+                  "target": [
+                    "header"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/tutor-training-course/evaluation/pilot-report.html\" class=\"nav-list-link\">Pilot report</a>",
+          "target": [
+            ".nav-list-item:nth-child(9) > .nav-list-link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<header class=\"side-bar\">",
+                  "target": [
+                    "header"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/tutor-training-course/transcripts/t1.html\" class=\"nav-list-link\">Transcript T1 · A strong session</a>",
+          "target": [
+            ".nav-list-item:nth-child(10) > .nav-list-link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        }
+      ]
+    }
+  ],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "nodes": 1
+    },
+    {
+      "id": "aria-allowed-role",
+      "nodes": 1
+    },
+    {
+      "id": "aria-conditional-attr",
+      "nodes": 1
+    },
+    {
+      "id": "aria-deprecated-role",
+      "nodes": 1
+    },
+    {
+      "id": "aria-hidden-body",
+      "nodes": 1
+    },
+    {
+      "id": "aria-hidden-focus",
+      "nodes": 1
+    },
+    {
+      "id": "aria-prohibited-attr",
+      "nodes": 1
+    },
+    {
+      "id": "aria-required-attr",
+      "nodes": 1
+    },
+    {
+      "id": "aria-roles",
+      "nodes": 1
+    },
+    {
+      "id": "aria-valid-attr-value",
+      "nodes": 1
+    },
+    {
+      "id": "aria-valid-attr",
+      "nodes": 1
+    },
+    {
+      "id": "autocomplete-valid",
+      "nodes": 1
+    },
+    {
+      "id": "button-name",
+      "nodes": 1
+    },
+    {
+      "id": "bypass",
+      "nodes": 1
+    },
+    {
+      "id": "color-contrast",
+      "nodes": 1
+    },
+    {
+      "id": "document-title",
+      "nodes": 1
+    },
+    {
+      "id": "duplicate-id-aria",
+      "nodes": 1
+    },
+    {
+      "id": "empty-heading",
+      "nodes": 1
+    },
+    {
+      "id": "form-field-multiple-labels",
+      "nodes": 1
+    },
+    {
+      "id": "heading-order",
+      "nodes": 1
+    },
+    {
+      "id": "html-has-lang",
+      "nodes": 1
+    },
+    {
+      "id": "html-lang-valid",
+      "nodes": 1
+    },
+    {
+      "id": "label-title-only",
+      "nodes": 1
+    },
+    {
+      "id": "label",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-banner-is-top-level",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-contentinfo-is-top-level",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-main-is-top-level",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-no-duplicate-banner",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-no-duplicate-contentinfo",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-no-duplicate-main",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-one-main",
+      "nodes": 1
+    },
+    {
+      "id": "landmark-unique",
+      "nodes": 1
+    },
+    {
+      "id": "link-in-text-block",
+      "nodes": 1
+    },
+    {
+      "id": "link-name",
+      "nodes": 1
+    },
+    {
+      "id": "list",
+      "nodes": 1
+    },
+    {
+      "id": "listitem",
+      "nodes": 1
+    },
+    {
+      "id": "meta-viewport-large",
+      "nodes": 1
+    },
+    {
+      "id": "meta-viewport",
+      "nodes": 1
+    },
+    {
+      "id": "nested-interactive",
+      "nodes": 1
+    },
+    {
+      "id": "page-has-heading-one",
+      "nodes": 1
+    },
+    {
+      "id": "region",
+      "nodes": 1
+    },
+    {
+      "id": "scrollable-region-focusable",
+      "nodes": 1
+    },
+    {
+      "id": "skip-link",
+      "nodes": 1
+    },
+    {
+      "id": "tabindex",
+      "nodes": 1
+    }
+  ]
+}
