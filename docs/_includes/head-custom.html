@@ -1,0 +1,34 @@
+<!-- Custom head include for the Just the Docs theme (loaded on every page).
+     Two fixes for theme-on-this-content interactions found by the axe audit
+     of the live site; see evaluation/METHODS.md section 2. -->
+<style>
+  /* Fix: links inside {.label} badges kept the default link purple on the
+     badge's saturated background (contrast as low as 1.23:1). Inheriting the
+     label's own text color restores the label's intended contrast; underline
+     keeps links distinguishable without color. */
+  .label a {
+    color: inherit;
+    text-decoration: underline;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var wrappers = document.querySelectorAll(".table-wrapper");
+    function makeFocusable(w) {
+      var scrollable = w.scrollWidth > w.clientWidth + 1;
+      if (scrollable) {
+        w.setAttribute("tabindex", "0");
+        if (!w.hasAttribute("role")) w.setAttribute("role", "region");
+        if (!w.hasAttribute("aria-label")) w.setAttribute("aria-label", "Scrollable table. Use arrow keys to scroll.");
+      } else {
+        w.removeAttribute("tabindex");
+        w.removeAttribute("role");
+        w.removeAttribute("aria-label");
+      }
+    }
+    wrappers.forEach(makeFocusable);
+    window.addEventListener("resize", function () {
+      wrappers.forEach(makeFocusable);
+    });
+  });
+</script>
