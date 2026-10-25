@@ -1,6 +1,6 @@
 {
   "url": "https://iwyusdaz.github.io/tutor-training-course/coaching/coaching-cycle.html",
-  "timestamp": "2026-10-25T22:03:30.766Z",
+  "timestamp": "2026-10-25T22:09:06.432Z",
   "violations": [],
   "incomplete": [
     {
@@ -183,6 +183,14 @@
       "nodes": 1
     },
     {
+      "id": "image-alt",
+      "nodes": 1
+    },
+    {
+      "id": "image-redundant-alt",
+      "nodes": 1
+    },
+    {
       "id": "label-title-only",
       "nodes": 1
     },
@@ -256,6 +264,10 @@
     },
     {
       "id": "region",
+      "nodes": 1
+    },
+    {
+      "id": "scrollable-region-focusable",
       "nodes": 1
     },
     {
