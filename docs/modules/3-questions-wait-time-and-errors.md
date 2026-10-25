@@ -8,11 +8,11 @@ description: The heart of tutor skill — the probing question, the hint ladder 
 # Module 3 · Questions, wait time and errors
 
 {: .label .label-green }
-About 25 minutes · Competency domain: **Questioning and errors** · [competency model](/tutor-training-course/research/competency-model.md)
+About 25 minutes · Competency domain: **Questioning and errors** · [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)
 
 ## Objective
 
-By the end of this module you can: **given a student's incorrect step, respond with a probing question that leads the student to find and fix the error themselves** — without stating the correction, naming the misconception, or answering for the student during the pause. (Behaviors Q1–Q6; scored in [rubric Domain 3](/tutor-training-course/coaching/observation-rubric/); the same moves the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/) encodes as testable rules.)
+By the end of this module you can: **given a student's incorrect step, respond with a probing question that leads the student to find and fix the error themselves** — without stating the correction, naming the misconception, or answering for the student during the pause. (Behaviors Q1–Q6; scored in [rubric Domain 3](../coaching/observation-rubric.md); the same moves the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/) encodes as testable rules.)
 
 ## Scenario hook: three responses to one error
 
@@ -28,7 +28,7 @@ Tutor A fixed the math and taught nothing — next week the same error returns. 
 
 ## Key idea: three habits that keep the student thinking
 
-**1. Open with a probing question — Level 0 of the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) (shared vocabulary with the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/)).** Before any explaining: "What have you tried?" or "Talk me through your first step." The student's attempt is the diagnosis: it shows you *which* misconception is operating ([misconception bank](/tutor-training-course/tools/exit-ticket-bank/): applying an operation to only one side · sign errors when moving terms · distributing incorrectly · dividing only some terms · equals sign treated as "the answer comes next").
+**1. Open with a probing question — Level 0 of the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) (shared vocabulary with the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/)).** Before any explaining: "What have you tried?" or "Talk me through your first step." The student's attempt is the diagnosis: it shows you *which* misconception is operating ([misconception bank](../tools/exit-ticket-bank.md): applying an operation to only one side · sign errors when moving terms · distributing incorrectly · dividing only some terms · equals sign treated as "the answer comes next").
 
 **2. Escalate one rung per turn.** Never two hints in one breath, never a rung-skipping jump to "here's what you do":
 
@@ -47,7 +47,7 @@ Tutor A fixed the math and taught nothing — next week the same error returns. 
 
 ## Model: the ladder in live motion
 
-Excerpt from [Transcript T3](/tutor-training-course/transcripts/t3/) (**fictional, constructed for training**). Student error: `3x + 5 = 20 → 3x = 20` (subtracted on the left only — operation applied to one side).
+Excerpt from [Transcript T3](../transcripts/t3.md) (**fictional, constructed for training**). Student error: `3x + 5 = 20 → 3x = 20` (subtracted on the left only — operation applied to one side).
 
 > **Tutor:** Before I help — walk me through what you did.
 >
@@ -84,17 +84,17 @@ Excerpt from [Transcript T3](/tutor-training-course/transcripts/t3/) (**fictiona
 3. "You divided the 4x by 4. What else is on that side… and what does the equals sign promise?" *(exposes dividing only some terms via the balance idea)*
 **Weak responses** to avoid: "Check your sign" (no handle), "You forgot to distribute" (names the label — the misconception does the learning, not the student), "Almost! Try again" (no direction, no wait).
 
-Then try the [spot-the-move practice](/tutor-training-course/transcripts/practice/) — ten exchanges, you name the move and whether it worked. This is also the pre-task used in the [pilot protocol](/tutor-training-course/evaluation/human-protocol/pilot-protocol/) for measuring your own growth.
+Then try the [spot-the-move practice](../transcripts/practice/index.html) — ten exchanges, you name the move and whether it worked. This is also the pre-task used in the [pilot protocol](https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/human-protocol/pilot-protocol.md) for measuring your own growth.
 
 ## In your next session, try…
 
-1. Pick **one** recurring error in your group. Write its probing question on your session plan before the session ([template](/tutor-training-course/tools/session-plan-template/)).
+1. Pick **one** recurring error in your group. Write its probing question on your session plan before the session ([template](../tools/session-plan-template.md)).
 2. Count your pauses: aim for at least three 3–5 second waits. Tick each on your plan.
 3. If a student fails the same step three times: stop hinting, work a *similar* problem fully (L4), then hand them back their own problem.
 
 ## Reflection
 
-In the [tutor self-reflection form](/tutor-training-course/tools/tutor-self-reflection/): *When did I last answer my own question? What was I afraid would happen if I stayed quiet?*
+In the [tutor self-reflection form](../tools/tutor-self-reflection.md): *When did I last answer my own question? What was I afraid would happen if I stayed quiet?*
 
 ## Check yourself
 

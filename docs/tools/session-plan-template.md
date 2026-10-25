@@ -8,10 +8,10 @@ description: The five-block 30-minute plan with time boxes, the misconception ta
 # Session plan template
 
 {: .label .label-green }
-Fill in before every session (~5 minutes) · Serves [Domain 2: session structure](/tutor-training-course/research/competency-model.md) · The Week-3 [observation](/tutor-training-course/coaching/observation-rubric.md) starts by reading your most recent plan.
+Fill in before every session (~5 minutes) · Serves [Domain 2: session structure](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md) · The Week-3 [observation](../coaching/observation-rubric.md) starts by reading your most recent plan.
 
 {: .note }
-**The exit ticket is chosen here, before the session.** A ticket chosen afterwards drifts toward "whatever we did." A ticket chosen now is the session's destination — and writing the misconception target below is what makes the session diagnostic rather than generic ([Module 5](/tutor-training-course/modules/5-using-exit-tickets-and-data.md)).
+**The exit ticket is chosen here, before the session.** A ticket chosen afterwards drifts toward "whatever we did." A ticket chosen now is the session's destination — and writing the misconception target below is what makes the session diagnostic rather than generic ([Module 5](../modules/5-using-exit-tickets-and-data.md)).
 
 ---
 
@@ -74,7 +74,7 @@ EXIT TICKET:     #12 as above.
 
 ## Rules that make the template work
 
-1. **Plan light.** Two problems per block, not four. Over-planning is how guided practice swallows the hour ([T5](/tutor-training-course/transcripts/t5.md) annotation 6).
-2. **Write the probing question down.** Under pressure you will produce the question you *practiced*, not the one you believe in. Write it ([Module 3](/tutor-training-course/modules/3-questions-wait-time-and-errors.md)).
-3. **The misconception target has a source.** "M3, from A.O. Tuesday" — not a hunch. If you can't name the evidence, the review block is a guess ([D3](/tutor-training-course/research/competency-model.md)).
-4. **After the session, the plan gets one line of truth:** what actually ran, what the tickets said. Thirty seconds. This line is what your [coaching conversation](/tutor-training-course/coaching/coaching-conversation-guide.md) opens with.
+1. **Plan light.** Two problems per block, not four. Over-planning is how guided practice swallows the hour ([T5](../transcripts/t5.md) annotation 6).
+2. **Write the probing question down.** Under pressure you will produce the question you *practiced*, not the one you believe in. Write it ([Module 3](../modules/3-questions-wait-time-and-errors.md)).
+3. **The misconception target has a source.** "M3, from A.O. Tuesday" — not a hunch. If you can't name the evidence, the review block is a guess ([D3](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)).
+4. **After the session, the plan gets one line of truth:** what actually ran, what the tickets said. Thirty seconds. This line is what your [coaching conversation](../coaching/coaching-conversation-guide.md) opens with.

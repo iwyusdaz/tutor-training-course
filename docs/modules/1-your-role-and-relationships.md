@@ -8,11 +8,11 @@ description: What a high-impact tutor is (and is not), and the four relationship
 # Module 1 · Your role and relationships
 
 {: .label .label-green }
-About 20 minutes · Competency domain: **Relationships** · [competency model](/tutor-training-course/research/competency-model.md)
+About 20 minutes · Competency domain: **Relationships** · [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)
 
 ## Objective
 
-By the end of this module you can: **run the first three minutes of a session so that every student is greeted by name and hears one specific reference to their previous work** — behaviors R1–R2 in the [competency model](/tutor-training-course/research/competency-model.md), scored in [rubric Domain 1](/tutor-training-course/coaching/observation-rubric/).
+By the end of this module you can: **run the first three minutes of a session so that every student is greeted by name and hears one specific reference to their previous work** — behaviors R1–R2 in the [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md), scored in [rubric Domain 1](../coaching/observation-rubric.md).
 
 ## Scenario hook: Diego's first session
 
@@ -35,7 +35,7 @@ Why it matters: tutoring works through a consistent adult who knows the student'
 
 ## Model: the first three minutes
 
-This excerpt is from [Transcript T1](/tutor-training-course/transcripts/t1/), a **fictional, constructed-for-training** session with three students.
+This excerpt is from [Transcript T1](../transcripts/t1.md), a **fictional, constructed-for-training** session with three students.
 
 > **Tutor:** Welcome back, Amara, Jayden, Luis — grab the same seats. Amara, yesterday your distributive step finally clicked; today we start there. [**R1 + R2**]
 >
@@ -62,13 +62,13 @@ Write your **first three sentences** to the group. Then compare:
 
 ## In your next session, try…
 
-1. Write each student's **name + one true sentence from their last exit ticket** on your session plan before you walk in ([session plan template](/tutor-training-course/tools/session-plan-template/)).
+1. Write each student's **name + one true sentence from their last exit ticket** on your session plan before you walk in ([session plan template](../tools/session-plan-template.md)).
 2. Say both out loud in the first three minutes.
 3. Mark an **attention tick** next to each name when they speak — at session end, no name without a tick.
 
 ## Reflection
 
-After your next session, answer in the [tutor self-reflection form](/tutor-training-course/tools/tutor-self-reflection/): *Which student did I address least, and what did I miss as a result?* Bring the answer to your next coaching conversation — it is a standard opener in the [coaching conversation guide](/tutor-training-course/coaching/coaching-conversation-guide/).
+After your next session, answer in the [tutor self-reflection form](../tools/tutor-self-reflection.md): *Which student did I address least, and what did I miss as a result?* Bring the answer to your next coaching conversation — it is a standard opener in the [coaching conversation guide](../coaching/coaching-conversation-guide.md).
 
 ## Check yourself
 

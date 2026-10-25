@@ -8,7 +8,7 @@ description: Printable student, tutor and observer cards for Sessions A and B �
 # Role-play cards
 
 {: .note }
-**For the two [live practice sessions](/tutor-training-course/live-practice/).** All names and profiles are fictional. Student cards are played by adults simulating Grade 7–8 students; each carries (1) a personality note, (2) a misconception profile that drives how they "get stuck," and (3) a reveal rule — the misconception information they give up **only if the tutor's question actually targets it**. The reveal mechanic is what turns role-play into probing-question practice: a tutor who corrects or lectures gets nothing, which is the point.
+**For the two [live practice sessions](index.md).** All names and profiles are fictional. Student cards are played by adults simulating Grade 7–8 students; each carries (1) a personality note, (2) a misconception profile that drives how they "get stuck," and (3) a reveal rule — the misconception information they give up **only if the tutor's question actually targets it**. The reveal mechanic is what turns role-play into probing-question practice: a tutor who corrects or lectures gets nothing, which is the point.
 
 Print single-sided, cut, one full set per trio. Online: paste each card into its breakout-room chat at round start.
 
@@ -72,4 +72,4 @@ Reveal: the written first step shows M4 (divided only the x-term). If the tutor 
 2. Escalate across rounds: Session A goes cooperative → disruptive; Session B goes plain error → pressure → distress.
 3. The reveal rules are the assessment instrument. If a round "fails" because the tutor lectured, that IS the round's result — record it, re-run one exchange with a better question, move on.
 4. Debrief the students' experience, not the tutor's intention: "What did you notice when the question landed?" teaches more than "You should have waited longer."
-5. Keep the fiction respectful: students are written as capable kids with real, research-documented misconceptions — never as comic relief. The [misconception bank](/tutor-training-course/tools/exit-ticket-bank.md) tags every card's misconception so tutors can connect role-play to real tickets later.
+5. Keep the fiction respectful: students are written as capable kids with real, research-documented misconceptions — never as comic relief. The [misconception bank](../tools/exit-ticket-bank.md) tags every card's misconception so tutors can connect role-play to real tickets later.

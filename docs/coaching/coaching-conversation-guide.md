@@ -8,7 +8,7 @@ description: Openings, naming strengths with evidence, picking one focus move, a
 # Coaching conversation guide
 
 {: .label .label-blue }
-For the 15-minute debrief inside the [coaching cycle](coaching-cycle.md) · Pairs with the [observation rubric](observation-rubric.md) (evidence) and the tutor's [self-reflection](/tutor-training-course/tools/tutor-self-reflection.md) (their words first)
+For the 15-minute debrief inside the [coaching cycle](coaching-cycle.md) · Pairs with the [observation rubric](observation-rubric.md) (evidence) and the tutor's [self-reflection](../tools/tutor-self-reflection.md) (their words first)
 
 {: .note }
 **Alignment note:** the conversation structure below — evidence first, one strength, one focus, tutor generates the how — deliberately mirrors the feedback approach in the companion portfolio project [Should this be a course?](https://iwyusdaz.github.io/should-this-be-a-course/) (repo 02), which builds a manager feedback model from the same evidence-first principle. Where that project's job aid gives managers five minutes, this guide gives coordinators fifteen and a rubric behind every sentence.
@@ -17,7 +17,7 @@ For the 15-minute debrief inside the [coaching cycle](coaching-cycle.md) · Pair
 
 ## 0 · Before the debrief (2 minutes of prep)
 
-Re-read the [rubric sheet](observation-rubric.md) ticks, the tutor's self-reflection, and any [tracker flags](/tutor-training-course/tools/student-progress-tracker.md). Write down: (a) your strength + the tick that proves it; (b) your single focus move + the rubric line; (c) your micro-practice plan. Walk in with three things written; improvise nothing.
+Re-read the [rubric sheet](observation-rubric.md) ticks, the tutor's self-reflection, and any [tracker flags](../tools/student-progress-tracker.md). Write down: (a) your strength + the tick that proves it; (b) your single focus move + the rubric line; (c) your micro-practice plan. Walk in with three things written; improvise nothing.
 
 ## 1 · Open with their week, not your form (1 minute)
 
@@ -46,7 +46,7 @@ Rules: evidence before adjectives; name the *behavior* (they can repeat it), not
 Rules:
 - **One. Move.** Not "wait time and also your exit tickets and also—" One.
 - **Evidence, then the move as the gap-bridger.** "Three times you self-answered" is evidence; "be patient" is a virtue. The rubric line is the bridge.
-- **The tutor proposes the how** ("What would make three seconds possible mid-sentence?"). Self-generated tactics stick; assigned tactics decay. If they stall, offer the two that work: the silent count on the plan sheet, or writing the question down in advance ([Module 3](/tutor-training-course/modules/3-questions-wait-time-and-errors.md)).
+- **The tutor proposes the how** ("What would make three seconds possible mid-sentence?"). Self-generated tactics stick; assigned tactics decay. If they stall, offer the two that work: the silent count on the plan sheet, or writing the question down in advance ([Module 3](../modules/3-questions-wait-time-and-errors.md)).
 
 ## 4 · Micro-practice the move (3 minutes)
 
@@ -79,4 +79,4 @@ Name the re-observation date, confirm what you'll both ignore for now (important
 
 ## What this guide deliberately omits
 
-No "compliment sandwich," no "two stars and a wish," no written-up scores in the meeting (scores live on the [rubric sheet](observation-rubric.md) and in the [measurement plan](/tutor-training-course/program/measurement-plan.md); the conversation is about moves). The structure is: their week → evidence-anchored strength → one focus move → rehearse it → name the trail. Everything else is ceremony, and ceremony is what makes 15 minutes too short.
+No "compliment sandwich," no "two stars and a wish," no written-up scores in the meeting (scores live on the [rubric sheet](observation-rubric.md) and in the [measurement plan](../program/measurement-plan.md); the conversation is about moves). The structure is: their week → evidence-anchored strength → one focus move → rehearse it → name the trail. Everything else is ceremony, and ceremony is what makes 15 minutes too short.

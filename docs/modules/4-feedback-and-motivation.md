@@ -8,12 +8,12 @@ description: Feedback that names the work, not the person; confirm-then-ask-why;
 # Module 4 · Feedback and motivation
 
 {: .label .label-green }
-About 20 minutes · Competency domain: **Feedback and motivation** · [competency model](/tutor-training-course/research/competency-model.md)
+About 20 minutes · Competency domain: **Feedback and motivation** · [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)
 
 ## Objectives
 
 By the end of this module you can:
-1. **Give specific, process-focused feedback** — name *what in the student's work* was right, not a verdict on the student (behaviors F1–F2, [rubric Domain 4](/tutor-training-course/coaching/observation-rubric/)).
+1. **Give specific, process-focused feedback** — name *what in the student's work* was right, not a verdict on the student (behaviors F1–F2, [rubric Domain 4](../coaching/observation-rubric.md)).
 2. **After a correct answer: confirm briefly, ask one why-question, then offer a similar problem** (F3–F4) — the exact chain the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/) encodes as its "confirm and ask why" and "offer a similar problem" moves.
 
 ## Scenario hook: twenty "good job"s
@@ -34,7 +34,7 @@ By the end of this module you can:
 
 ## Model: a repaired error, closed properly
 
-Excerpt from [Transcript T1](/tutor-training-course/transcripts/t1/) (**fictional, constructed for training**):
+Excerpt from [Transcript T1](../transcripts/t1.md) (**fictional, constructed for training**):
 
 > **Elena:** `2(x − 4) = 2x − 4`… wait. 2 times −4 is −8, so `2x − 8`.
 >
@@ -61,13 +61,13 @@ Excerpt from [Transcript T1](/tutor-training-course/transcripts/t1/) (**fictiona
 
 ## In your next session, try…
 
-1. Give every student **one** piece of specific feedback tied to their recorded work ([tracker](/tutor-training-course/tools/student-progress-tracker/)).
+1. Give every student **one** piece of specific feedback tied to their recorded work ([tracker](../tools/student-progress-tracker.md)).
 2. After each correct answer: confirm → one why → offer a similar problem. Three chains in one session is a good session.
 3. Catch one error early and say "that's the trap this problem sets" — out loud, warmly, before anyone else notices.
 
 ## Reflection
 
-In the [tutor self-reflection form](/tutor-training-course/tools/tutor-self-reflection/): *Whose success did I praise most this week? What did I actually name? Which student never heard their own work described?*
+In the [tutor self-reflection form](../tools/tutor-self-reflection.md): *Whose success did I praise most this week? What did I actually name? Which student never heard their own work described?*
 
 ## Check yourself
 

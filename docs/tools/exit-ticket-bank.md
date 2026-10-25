@@ -89,8 +89,8 @@ Identity in disguise; the −2 distribution is the trap. Probe: *"Distribute car
 
 1. **Choose before the session** (template rule). One item the *group* should mostly get (confidence), one at the edge (information).
 2. **Record with tags, not just scores** — the [tracker](student-progress-tracker.md) wants the tag (`12·DIST`), because "missed item 12" is trivia while "missed DIST twice" is a plan.
-3. **Escalation trigger:** two consecutive tickets below mastery on the same tag → coordinator flag ([D4](/tutor-training-course/research/competency-model.md)). The tags make that automatic.
-4. **The probing question column is the bridge to practice:** when an item is missed, the *next* session's guided practice opens with its probe. Ticket → probe → plan is the whole [data loop](/tutor-training-course/modules/5-using-exit-tickets-and-data.md).
+3. **Escalation trigger:** two consecutive tickets below mastery on the same tag → coordinator flag ([D4](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)). The tags make that automatic.
+4. **The probing question column is the bridge to practice:** when an item is missed, the *next* session's guided practice opens with its probe. Ticket → probe → plan is the whole [data loop](../modules/5-using-exit-tickets-and-data.md).
 5. Items 3, 10, 14, 18, 19 are **concept items** (BAL/M5): use them when tickets say solves are fine but transfers keep failing — procedural success with conceptual collapse is exactly what these five are built to catch.
 
 {: .note }

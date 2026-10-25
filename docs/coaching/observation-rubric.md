@@ -8,14 +8,14 @@ description: Five domains × four levels with behavioral anchors — one page, u
 # Observation rubric
 
 {: .label .label-blue }
-One page · Five domains × four levels · Designed for a 30-minute observation: mark behaviors as you see them, then transfer to this sheet afterward. Domain names and behaviors are the [competency model](/tutor-training-course/research/competency-model.md)'s, unchanged.
+One page · Five domains × four levels · Designed for a 30-minute observation: mark behaviors as you see them, then transfer to this sheet afterward. Domain names and behaviors are the [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)'s, unchanged.
 
 ## How to use it
 
 1. **Observe for 30 minutes with the behavior list** ([print version](#print-version)) ticking what you see. Ticks, not judgments — anchors are visible/audible events by design.
 2. **Score each domain 1–4 afterward** using the anchors below. When a domain sits between two levels, the lower level wins unless the higher behavior is clearly present. Write one evidence line per domain — the tick you'd show the tutor.
 3. **One strength + one focus** for the [coaching conversation](coaching-conversation-guide.md). Never deliver all five domains as verdicts — the cycle works on one focus move at a time.
-4. **Calibrate first.** Scores only mean something after the [calibration activity](calibration-activity.md); new observers score [T1](/tutor-training-course/transcripts/t1.md), [T3](/tutor-training-course/transcripts/t3.md) and [T5](/tutor-training-course/transcripts/t5.md) and compare against anchors before observing live tutors.
+4. **Calibrate first.** Scores only mean something after the [calibration activity](calibration-activity.md); new observers score [T1](../transcripts/t1.md), [T3](../transcripts/t3.md) and [T5](../transcripts/t5.md) and compare against anchors before observing live tutors.
 
 **Levels in one line each:** 1 = absent or the failure mode dominates · 2 = present but generic or inconsistent · 3 = consistent, student mostly produces · 4 = consistent, specific, and student does the thinking — you could hand this session to a new tutor as a model.
 
@@ -37,7 +37,7 @@ One page · Five domains × four levels · Designed for a 30-minute observation:
 | 4 | All five blocks run inside their boxes (warm-up 5′ → review 5′ → guided practice 12′ → independent try 5′ → exit ticket 3′); visible timekeeping; exit ticket collected from every student *including incomplete ones*; review topic traced to ticket data out loud ("Tuesday's tickets said…") |
 | 3 | All five blocks present; one block runs over but another still happens; exit ticket collected; review uses ticket data |
 | 2 | Routine recognizable but blocks blur — guided practice swallows the hour, independent try shrinks; **or the exit ticket is threatened** ("we'll do it next time") and only intervention of the clock saves it |
-| 1 | No routine: cold start, no review, no independent try, **exit ticket skipped** (this alone caps the domain at 1 — it breaks the data loop for the whole group; see [T5](/tutor-training-course/transcripts/t5.md) annotation 7) |
+| 1 | No routine: cold start, no review, no independent try, **exit ticket skipped** (this alone caps the domain at 1 — it breaks the data loop for the whole group; see [T5](../transcripts/t5.md) annotation 7) |
 
 ## Domain 3 · Questioning and errors
 
@@ -45,8 +45,8 @@ One page · Five domains × four levels · Designed for a 30-minute observation:
 |---|---|
 | 4 | Every problem opens with a probing question before any explaining (L0); ladder climbs one rung per turn, hand on the rung; errors met with a question at the misconception's spot — never the label ("what did the 2 multiply?", never "you forgot to distribute"); 3–5 second pauses after questions (count them); after ~3 failures, a worked example of a *similar* problem (L4), then the original handed back; the student produces the key steps |
 | 3 | Probing questions asked, though sometimes after a partial explanation; wait time present but short (~2s); ladder mostly one rung per turn; errors probed at least once before any correction |
-| 2 | Questions asked but self-answered; wait time absent; ladder skipped (L0 → "here's what you do"); errors corrected outright with the right step supplied — tutor performs the fix ([T6](/tutor-training-course/transcripts/t6.md) annotation 3) |
-| 1 | No probing questions; session is explanation ([T5](/tutor-training-course/transcripts/t5.md) annotation 1); tutor completes every solution; misconception named and patched ("that's your bug") |
+| 2 | Questions asked but self-answered; wait time absent; ladder skipped (L0 → "here's what you do"); errors corrected outright with the right step supplied — tutor performs the fix ([T6](../transcripts/t6.md) annotation 3) |
+| 1 | No probing questions; session is explanation ([T5](../transcripts/t5.md) annotation 1); tutor completes every solution; misconception named and patched ("that's your bug") |
 
 ## Domain 4 · Feedback and motivation
 
@@ -104,7 +104,7 @@ D5  Flag raised where warranted                ☐  n/a ☐
 | 4 Feedback/motivation | | | | | |
 | 5 Data use | | | | | |
 
-**Program aggregates:** the mean across observations (fidelity metric, target ≥3.0), growth between each tutor's observations 1 and 3 (target +0.5), and the per-domain pattern (a tutor can be 4-3-2-4-3 — the pattern *is* the coaching plan). See [measurement plan](/tutor-training-course/program/measurement-plan.md).
+**Program aggregates:** the mean across observations (fidelity metric, target ≥3.0), growth between each tutor's observations 1 and 3 (target +0.5), and the per-domain pattern (a tutor can be 4-3-2-4-3 — the pattern *is* the coaching plan). See [measurement plan](../program/measurement-plan.md).
 
 {: .note }
 **Fictional program, real scoring discipline.** The anchors were written to be *checkable* — every level-4 behavior is a tick on the print sheet. When you can't tick it, you can't score it, and the debrief says so.

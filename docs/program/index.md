@@ -15,4 +15,4 @@ A training program nobody measures is a slide deck. This section is the fictiona
 4. **[Alignment table](alignment-table.md)** — every training objective mapped to its module, practice, rubric row and fidelity metric. If a row can't be filled, the objective isn't trained, or isn't measured — that's the point of the table.
 
 {: .note }
-**Leading indicators on purpose.** Student outcomes lag and are noisy; implementation metrics (dosage delivered, sessions with an exit ticket, rubric scores) are early, fixable signals. The [research notes](/tutor-training-course/research/evidence-notes.md) carry the evidence for why implementation quality is where at-scale programs erode — the measurement system watches exactly those seams.
+**Leading indicators on purpose.** Student outcomes lag and are noisy; implementation metrics (dosage delivered, sessions with an exit ticket, rubric scores) are early, fixable signals. The [research notes](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md) carry the evidence for why implementation quality is where at-scale programs erode — the measurement system watches exactly those seams.

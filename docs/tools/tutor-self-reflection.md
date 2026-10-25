@@ -8,7 +8,7 @@ description: A 10-minute weekly reflection with five prompts — one per compete
 # Tutor self-reflection form
 
 {: .label .label-green }
-Weekly, ~10 minutes · Feeds the [coaching cycle](/tutor-training-course/coaching/coaching-cycle.md) — your coach reads this *before* the debrief, so the conversation starts where you already are.
+Weekly, ~10 minutes · Feeds the [coaching cycle](../coaching/coaching-cycle.md) — your coach reads this *before* the debrief, so the conversation starts where you already are.
 
 {: .note }
 **Nothing here is graded or submitted anywhere.** This form is for you (and your coach, if you choose to share it). Honest is more useful than impressive — "my tickets went unrecorded twice" is a coaching conversation; "everything went fine" is a dead end.
@@ -37,16 +37,16 @@ End by filling this sentence and keeping it where you'll see it at your next ses
 
 > **"Next session, the one thing I'm rehearsing is: ____________________."**
 
-One thing. The [coaching cycle](/tutor-training-course/coaching/coaching-cycle.md) works because it concentrates on a single focus move per observation — this line is your version of the same discipline. Bring it to every observation debrief.
+One thing. The [coaching cycle](../coaching/coaching-cycle.md) works because it concentrates on a single focus move per observation — this line is your version of the same discipline. Bring it to every observation debrief.
 
 ## For your coach
 
 If you share this form (recommended, not required), your coach will:
 
 - read it **before** the observation debrief,
-- open the conversation with your strength first ([conversation guide](/tutor-training-course/coaching/coaching-conversation-guide.md), section 2),
+- open the conversation with your strength first ([conversation guide](../coaching/coaching-conversation-guide.md), section 2),
 - pick the **single** focus move with you — which is usually already visible in your own "one thing I'm rehearsing" line,
-- never quote your reflection in program metrics. Reflection is for learning; the [measurement plan](/tutor-training-course/program/measurement-plan.md) runs on observation and ticket data, not on what you worried about at 10 pm.
+- never quote your reflection in program metrics. Reflection is for learning; the [measurement plan](../program/measurement-plan.md) runs on observation and ticket data, not on what you worried about at 10 pm.
 
 ## A worked example (fictional)
 

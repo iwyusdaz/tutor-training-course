@@ -24,11 +24,11 @@ Typical topics in US K-12 partner organizations:
 - Approved communication channels with students — almost always organization-managed tools only, never personal phone numbers, personal social media or private messaging
 - Physical-space rules: doors, visibility, one-on-one settings
 - What you must hand to staff and never handle yourself (disclosures, suspicions, conflicts)
-- Student data and privacy rules — including the initials-only rule this program's [tracker](/tutor-training-course/tools/student-progress-tracker.md) already follows
+- Student data and privacy rules — including the initials-only rule this program's [tracker](../tools/student-progress-tracker.md) already follows
 
 ## One line in every session
 
-When in doubt about anything involving a student's safety or privacy: **stop, and tell your site coordinator the same day.** The escalation habit in [Module 5](/tutor-training-course/modules/5-using-exit-tickets-and-data/) is the coaching loop; this is the safety loop — and it always outranks it.
+When in doubt about anything involving a student's safety or privacy: **stop, and tell your site coordinator the same day.** The escalation habit in [Module 5](5-using-exit-tickets-and-data.md) is the coaching loop; this is the safety loop — and it always outranks it.
 
 ---
 

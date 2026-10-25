@@ -1,0 +1,34 @@
+- heading "Exchange 1 of 10" [level=2]
+- paragraph: "Source: Transcript T1 · strong session · guided practice"
+- region "Exchange 1 of 10":
+  - blockquote:
+    - paragraph: "Tutor: New problem on the board: 2(x − 4) + 3 = 11. Before I say anything — Amara, what do you notice?"
+    - paragraph: "Amara: There's parentheses and a plus 3."
+  - group "Which move is the tutor using (or which failure mode replaced it)?":
+    - text: Which move is the tutor using (or which failure mode replaced it)?
+    - radio "probing question" [checked]
+    - text: probing question
+    - radio "wait time"
+    - text: wait time
+    - radio "confirm and ask why"
+    - text: confirm and ask why
+    - radio "none of these — the tutor explained first"
+    - text: none of these — the tutor explained first
+  - group "Did the move work for the student?":
+    - text: Did the move work for the student?
+    - radio "Effective — the student kept thinking or produced the work" [checked]
+    - text: Effective — the student kept thinking or produced the work
+    - radio "Partly — mixed effect"
+    - text: Partly — mixed effect
+    - radio "No — the student's thinking stopped or shrank"
+    - text: No — the student's thinking stopped or shrank
+- status "Both right — effective, as you said.":
+  - heading "Both right — effective, as you said." [level=3]
+  - paragraph: "This is a probing question — ladder level 0. The tutor's first move hands the problem to the student ('what do you notice?'), which starts the diagnosis before any explanation. Contrast with the weak sessions: T5 opens with a 90-second monologue and never asks."
+  - paragraph:
+    - text: "Read the full transcript:"
+    - link "Transcript T1":
+      - /url: ../t1.html
+    - text: .
+- button "Next exchange"
+- paragraph: "Nothing is stored: answers live in this page only and vanish when you close it."

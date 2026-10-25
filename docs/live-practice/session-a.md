@@ -8,11 +8,11 @@ description: 60-minute facilitator guide — three rounds of role-play through t
 # Session A · Rehearsing the session routine (facilitator guide)
 
 {: .label .label-blue }
-60 minutes · Weeks 1 · Prerequisites: [Modules 1–2](/tutor-training-course/modules/) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md), printed [session plan template](/tutor-training-course/tools/session-plan-template.md), timers, the [observation rubric](/tutor-training-course/coaching/observation-rubric.md) (one per observer)
+60 minutes · Weeks 1 · Prerequisites: [Modules 1–2](../modules/index.md) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md), printed [session plan template](../tools/session-plan-template.md), timers, the [observation rubric](../coaching/observation-rubric.md) (one per observer)
 
 ## Objective
 
-By the end of the session, every participant has **run the five-block routine (warm-up → review → guided practice → independent try → exit ticket) at least twice as the tutor**, with observers timing each block and scoring [rubric Domain 2](/tutor-training-course/coaching/observation-rubric.md). Tutors leave with one timed, *rehearsed* first-3-minutes script.
+By the end of the session, every participant has **run the five-block routine (warm-up → review → guided practice → independent try → exit ticket) at least twice as the tutor**, with observers timing each block and scoring [rubric Domain 2](../coaching/observation-rubric.md). Tutors leave with one timed, *rehearsed* first-3-minutes script.
 
 ## Why role-play and not discussion
 
@@ -29,14 +29,14 @@ Reading about a routine does not make the routine happen at minute 7 when a stud
 
 | Minutes | Block | What happens |
 |---|---|---|
-| 0–5 | Frame | Objective; why rehearsal; show the five blocks on the board; connect to [T1](/tutor-training-course/transcripts/t1.md) ("this is what minute 3 sounds like") and [T5](/tutor-training-course/transcripts/t5.md) ("this is what happens without the timer"). |
+| 0–5 | Frame | Objective; why rehearsal; show the five blocks on the board; connect to [T1](../transcripts/t1.md) ("this is what minute 3 sounds like") and [T5](../transcripts/t5.md) ("this is what happens without the timer"). |
 | 5–12 | Round 1 · full routine, slow | Tutor runs all five blocks on the printed plan; student plays a cooperative Grade 7; observer times each block, ticks S1–S4, notes drift. No interruptions. |
 | 12–20 | Debrief round 1 | Trios: what stole time? Observers report block timings first (data before impressions). Facilitator harvests one pattern per group onto the board. |
 | 20–30 | Round 2 · full routine, harder | New tutor; the [role-play card](role-play-cards.md) now includes one disruption ("I lost my sheet", side conversation, fast finisher). Observer also scores Domain 1 (names, reference). |
 | 30–38 | Debrief round 2 + micro-teach | Facilitator picks the two most common drifts and models the fix live (60 seconds each): the "block boundary" sentence ("Two minutes left — land this one") and the disruption redirect. |
 | 38–50 | Round 3 · first 3 minutes, three reps | Each member runs ONLY the first three minutes (greeting + reference + warm-up launch) twice, with instant observer feedback between reps. This is the highest-frequency, lowest-stakes skill — highest reps. |
 | 50–58 | Whole-group debrief | See questions below. Each tutor says one thing they will do in their real first session. Facilitator records commitments (they resurface in observation #1 debriefs). |
-| 58–60 | Close | Point to [tutor self-reflection](/tutor-training-course/tools/tutor-self-reflection.md) (5 minutes, tonight) and [Session B](session-b.md). |
+| 58–60 | Close | Point to [tutor self-reflection](../tools/tutor-self-reflection.md) (5 minutes, tonight) and [Session B](session-b.md). |
 
 ## Observer checklist (Domain 2 + Domain 1) — print per round
 
@@ -51,7 +51,7 @@ Reading about a routine does not make the routine happen at minute 7 when a stud
 | Exit ticket administered and "collected" — even mid-thought | ☐ | ☐ | ☐ |
 | Block timings (actual vs. plan) | | | |
 
-Facilitators: collect these. They are the first calibration data for the [rubric](/tutor-training-course/coaching/observation-rubric.md) and feed the Week-3 observation baselines in the [measurement plan](/tutor-training-course/program/measurement-plan.md).
+Facilitators: collect these. They are the first calibration data for the [rubric](../coaching/observation-rubric.md) and feed the Week-3 observation baselines in the [measurement plan](../program/measurement-plan.md).
 
 ## Debrief questions (pick 3–4)
 
@@ -72,4 +72,4 @@ Facilitators: collect these. They are the first calibration data for the [rubric
 
 - Protect Round 3. If the session runs long, cut Round 2 debrief, not the first-3-minutes reps — the greeting routine is the skill with the highest transfer-to-real-sessions per minute of rehearsal.
 - Do not correct tutoring *content* (the math) in this session — that's [Session B](session-b.md)'s territory and mixing them overloads novices.
-- The fictional students on the cards have real misconception profiles from the [exit-ticket bank](/tutor-training-course/tools/exit-ticket-bank.md) — keep the fiction consistent if you improvise.
+- The fictional students on the cards have real misconception profiles from the [exit-ticket bank](../tools/exit-ticket-bank.md) — keep the fiction consistent if you improvise.

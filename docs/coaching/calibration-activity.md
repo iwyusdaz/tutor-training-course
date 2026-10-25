@@ -12,11 +12,11 @@ description: Coordinators score the same fictional transcripts and compare befor
 
 ## Why calibrate
 
-The [measurement plan](/tutor-training-course/program/measurement-plan.md) tracks rubric averages and growth (+0.5 between observations 1 and 3) — numbers that only mean something if the people producing them score the same session the same way. Inter-rater drift is the quiet killer of observation systems: one generous scorer and one severe scorer turn a program average into noise. Calibration is the fix, and it is cheap: score the same fictional transcript, compare, argue the gaps, converge.
+The [measurement plan](../program/measurement-plan.md) tracks rubric averages and growth (+0.5 between observations 1 and 3) — numbers that only mean something if the people producing them score the same session the same way. Inter-rater drift is the quiet killer of observation systems: one generous scorer and one severe scorer turn a program average into noise. Calibration is the fix, and it is cheap: score the same fictional transcript, compare, argue the gaps, converge.
 
 ## The activity (90 minutes)
 
-**Materials:** the [observation rubric](observation-rubric.md), printed; three calibration transcripts — **[T1](/tutor-training-course/transcripts/t1.md), [T3](/tutor-training-course/transcripts/t3.md), [T5](/tutor-training-course/transcripts/t5.md)** — chosen because they anchor different ends and mixtures (T1 ≈ strong across domains; T3 = mixed, split scoring; T5 = the weak end); independent scoring sheets.
+**Materials:** the [observation rubric](observation-rubric.md), printed; three calibration transcripts — **[T1](../transcripts/t1.md), [T3](../transcripts/t3.md), [T5](../transcripts/t5.md)** — chosen because they anchor different ends and mixtures (T1 ≈ strong across domains; T3 = mixed, split scoring; T5 = the weak end); independent scoring sheets.
 
 **Round 1 · Independent scoring (30 min).** Everyone scores T1 silently, alone: five domain scores + one evidence line each. No talking. Collect the sheets *before* any discussion — comparison needs independent judgments, not agreed ones.
 
@@ -31,7 +31,7 @@ The transcript annotations (numbered after each exchange) are the tiebreaker: po
 
 **Round 3 · The hard one (20 min).** Score T5 (weak end). The drift that matters most is *severity*: new scorers round up for warmth ("she was so prepared!"). Anchor discipline: the rubric scores **student production**, not tutor effort. If Domain 3 comes out ≥2 for T5, re-read annotation 1: ninety seconds, zero questions, students produce nothing. The correct score is 1 — feel the difference; that's the calibration.
 
-**Round 4 · Split scoring (20 min).** T3 exists to prove the rubric scores domains separately: questioning at 4, data use at 1, in the *same session*. Anyone who "averages T3 to a 3" misses the design — and would coach T3's tutor wrong (the [T3 debrief](/tutor-training-course/transcripts/t3.md) leads with the strength precisely because the weakness is in a different domain).
+**Round 4 · Split scoring (20 min).** T3 exists to prove the rubric scores domains separately: questioning at 4, data use at 1, in the *same session*. Anyone who "averages T3 to a 3" misses the design — and would coach T3's tutor wrong (the [T3 debrief](../transcripts/t3.md) leads with the strength precisely because the weakness is in a different domain).
 
 **Close (a few minutes):** record the agreed scores in the [calibration log](#calibration-log) and set the year's rules of the house (below).
 
@@ -49,7 +49,7 @@ The transcript annotations (numbered after each exchange) are the tiebreaker: po
 |---|---|---|---|---|---|
 | *(template row)* | | T1 / T3 / T5 | /5 | /5 | |
 
-The log travels with the [measurement plan](/tutor-training-course/program/measurement-plan.md): "calibration evidence" is part of what makes the rubric-growth metric honest. A program that can't show scorer agreement can't claim rubric growth — and this page is where that claim starts.
+The log travels with the [measurement plan](../program/measurement-plan.md): "calibration evidence" is part of what makes the rubric-growth metric honest. A program that can't show scorer agreement can't claim rubric growth — and this page is where that claim starts.
 
 {: .note }
-**Fictional program, real routine.** Bridge Math Tutoring is fictional; the transcripts are fictional; the inter-rater problem is not. Any program adopting the rubric should adopt the calibration first — the [evaluation methods](/tutor-training-course/evaluation/methods.md) page notes that these materials' own scoring evidence has the same dependency.
+**Fictional program, real routine.** Bridge Math Tutoring is fictional; the transcripts are fictional; the inter-rater problem is not. Any program adopting the rubric should adopt the calibration first — the [evaluation methods](https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/METHODS.md) page notes that these materials' own scoring evidence has the same dependency.

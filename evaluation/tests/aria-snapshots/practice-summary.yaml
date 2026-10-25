@@ -1,0 +1,64 @@
+- heading "Your summary" [level=2]
+- table "Moves named correctly and effectiveness judged correctly, by item":
+  - caption: Moves named correctly and effectiveness judged correctly, by item
+  - rowgroup:
+    - row "Exchange Source Move Effectiveness":
+      - columnheader "Exchange"
+      - columnheader "Source"
+      - columnheader "Move"
+      - columnheader "Effectiveness"
+  - rowgroup:
+    - row "1 Transcript T1 · strong session · guided practice identified judged right":
+      - cell "1"
+      - cell "Transcript T1 · strong session · guided practice"
+      - cell "identified"
+      - cell "judged right"
+    - row "2 Transcript T1 · strong session · guided practice identified judged right":
+      - cell "2"
+      - cell "Transcript T1 · strong session · guided practice"
+      - cell "identified"
+      - cell "judged right"
+    - row "3 Transcript T2 · strong session · third failure on the same step identified judged right":
+      - cell "3"
+      - cell "Transcript T2 · strong session · third failure on the same step"
+      - cell "identified"
+      - cell "judged right"
+    - row "4 Transcript T3 · mixed session · check that failed missed judged differently":
+      - cell "4"
+      - cell "Transcript T3 · mixed session · check that failed"
+      - cell "missed"
+      - cell "judged differently"
+    - row "5 Transcript T4 · mixed session · two correct answers missed judged differently":
+      - cell "5"
+      - cell "Transcript T4 · mixed session · two correct answers"
+      - cell "missed"
+      - cell "judged differently"
+    - row "6 Transcript T5 · weak session · the opening missed judged differently":
+      - cell "6"
+      - cell "Transcript T5 · weak session · the opening"
+      - cell "missed"
+      - cell "judged differently"
+    - row "7 Transcript T5 · weak session · the one real error missed judged differently":
+      - cell "7"
+      - cell "Transcript T5 · weak session · the one real error"
+      - cell "missed"
+      - cell "judged differently"
+    - row "8 Transcript T6 · weak session · Aaliyah's sign error identified judged differently":
+      - cell "8"
+      - cell "Transcript T6 · weak session · Aaliyah's sign error"
+      - cell "identified"
+      - cell "judged differently"
+    - row "9 Transcript T2 · strong session · after Mei's breakthrough identified judged right":
+      - cell "9"
+      - cell "Transcript T2 · strong session · after Mei's breakthrough"
+      - cell "identified"
+      - cell "judged right"
+    - row "10 Transcript T1 · strong session · independent try identified judged right":
+      - cell "10"
+      - cell "Transcript T1 · strong session · independent try"
+      - cell "identified"
+      - cell "judged right"
+- paragraph: You named 6 of 10 moves correctly and judged 5 of 10 effectiveness ratings as the annotations do.
+- paragraph: "Lower scores are information, not verdicts: re-read the linked transcript for any missed exchange, then the module it trains — questioning moves live in Module 3, feedback moves in Module 4."
+- paragraph: "Nothing is stored: closing this page forgets everything. Re-running the practice is encouraged — naming moves gets faster with reps, which is the point."
+- button "Start over"

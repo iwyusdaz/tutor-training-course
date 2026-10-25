@@ -14,12 +14,12 @@ For the fictional Bridge Math Tutoring program (6 schools, ~60 part-time tutors,
 
 | Layer | Metric | Benchmark / target | Source | Cadence | Why this metric |
 |---|---|---|---|---|---|
-| **Dosage** | Minutes of tutoring per student per week | **~90** (research benchmark: three 30-min sessions); **flag any student <60** | Attendance logs | Weekly per student | The benchmark's own analysis found the typical student at ~72 min/week — and that averages hide the shortfallers; see [evidence §2](/tutor-training-course/research/evidence-notes.md) |
-| **Consistency** | % of a student's sessions with the same tutor | ≥85% | Scheduling + attendance logs | Monthly | Tutor continuity is both a dosage enabler and the relationship mechanism ([evidence §2](/tutor-training-course/research/evidence-notes.md)) |
-| **Fidelity (quality)** | Mean [rubric](/tutor-training-course/coaching/observation-rubric.md) score across 5 domains | ≥3.0 mean; no domain at 1 | Observations (30 min, calibrated) | Every 2–3 weeks per tutor; growth window obs 1→3 | What's trained is what's observed ([competency model](/tutor-training-course/research/competency-model.md)) |
-| **Fidelity (routine)** | % of sessions with exit ticket administered & collected | ≥90% | Session logs + spot checks | Weekly | The data loop's precondition; skipping the ticket is [T5]'s signature failure ([evidence §1c](/tutor-training-course/research/evidence-notes.md)) |
+| **Dosage** | Minutes of tutoring per student per week | **~90** (research benchmark: three 30-min sessions); **flag any student <60** | Attendance logs | Weekly per student | The benchmark's own analysis found the typical student at ~72 min/week — and that averages hide the shortfallers; see [evidence §2](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md) |
+| **Consistency** | % of a student's sessions with the same tutor | ≥85% | Scheduling + attendance logs | Monthly | Tutor continuity is both a dosage enabler and the relationship mechanism ([evidence §2](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md)) |
+| **Fidelity (quality)** | Mean [rubric](../coaching/observation-rubric.md) score across 5 domains | ≥3.0 mean; no domain at 1 | Observations (30 min, calibrated) | Every 2–3 weeks per tutor; growth window obs 1→3 | What's trained is what's observed ([competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)) |
+| **Fidelity (routine)** | % of sessions with exit ticket administered & collected | ≥90% | Session logs + spot checks | Weekly | The data loop's precondition; skipping the ticket is [T5]'s signature failure ([evidence §1c](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md)) |
 | **Tutor development** | Rubric growth, observation 1 → 3 | **+0.5 average** | Observations | Per semester | Training that doesn't change observed behavior is retraining |
-| **Student progress** | % of students at mastery (4/4) on each skill tag; flagged-student rate | Program-defined per site; flag rate falling = the loop working | [Exit-ticket tracker](/tutor-training-course/tools/student-progress-tracker.md) aggregates | Monthly | Tag-level, not item-level: "MOVE·M2 down from 6 flags to 2" is an action signal |
+| **Student progress** | % of students at mastery (4/4) on each skill tag; flagged-student rate | Program-defined per site; flag rate falling = the loop working | [Exit-ticket tracker](../tools/student-progress-tracker.md) aggregates | Monthly | Tag-level, not item-level: "MOVE·M2 down from 6 flags to 2" is an action signal |
 | **Retention** | Tutors completing the semester | ≥80% | Program records | Per semester | Turnover resets every relationship (and re-trains every tutor); continuity metric depends on it |
 
 ## Why dosage and fidelity lead, and outcomes lag
@@ -32,7 +32,7 @@ Student test scores arrive in months and answer no fixable question ("did it wor
 
 ## The equity check (monthly, mandatory)
 
-Program averages hide exactly the students the program exists for — the dosage analysis found **91% of within-program variation in weekly minutes** ([evidence §2](/tutor-training-course/research/evidence-notes.md)). So every layer above is disaggregated:
+Program averages hide exactly the students the program exists for — the dosage analysis found **91% of within-program variation in weekly minutes** ([evidence §2](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md)). So every layer above is disaggregated:
 
 | Check | Cut | Trigger |
 |---|---|---|
@@ -45,9 +45,9 @@ The subgroup check uses only data the school already collects and shares under i
 
 ## Data privacy
 
-1. **Initials only at the tutor level.** The [tracker](/tutor-training-course/tools/student-progress-tracker.md) rule goes all the way up: no full student names in any program system; reports are tag-level counts.
+1. **Initials only at the tutor level.** The [tracker](../tools/student-progress-tracker.md) rule goes all the way up: no full student names in any program system; reports are tag-level counts.
 2. **Aggregate for anything shared.** School and program dashboards show rates and means; no row identifies a child. Flags travel to coaches as tagged tickets, per the school's agreement.
-3. **The school's data agreement outranks this page.** Where a district's rules are stricter, the stricter rule applies — and the [safeguarding placeholder](/tutor-training-course/modules/safeguarding.md) is where tutors get that training.
+3. **The school's data agreement outranks this page.** Where a district's rules are stricter, the stricter rule applies — and the [safeguarding placeholder](../modules/safeguarding.md) is where tutors get that training.
 4. **Simulated ≠ real.** The [dashboard](dashboard-simulated.md) carries fictional data on purpose; no real student data appears anywhere in this portfolio.
 
 ## What this plan cannot show

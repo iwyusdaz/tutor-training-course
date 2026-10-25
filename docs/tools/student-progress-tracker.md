@@ -8,7 +8,7 @@ description: The privacy-safe per-student tracker — initials only, tag-based m
 # Student progress tracker
 
 {: .label .label-green }
-Recorded the **same day**, after every session (~3 minutes) · Serves [Domain 5: data use](/tutor-training-course/research/competency-model.md) · **Initials only — never full names, never photos of student work** ([privacy rules](#privacy-rules))
+Recorded the **same day**, after every session (~3 minutes) · Serves [Domain 5: data use](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md) · **Initials only — never full names, never photos of student work** ([privacy rules](#privacy-rules))
 
 ## The tracker (printable — one sheet per group per month)
 
@@ -21,9 +21,9 @@ Recorded the **same day**, after every session (~3 minutes) · Serves [Domain 5:
 | L.R. | Nov 5 | 13 | MOVE · M2 | 1 | same error, second ticket → **FLAG** |
 
 {: .note }
-**The flag column is the tracker's real product.** Two consecutive tickets below mastery (3 or lower) on the same tag → flag the site coordinator at the next check-in ([D4](/tutor-training-course/research/competency-model.md)). The flag travels *with the tagged tickets*, so the coaching conversation starts from evidence, not recollection.
+**The flag column is the tracker's real product.** Two consecutive tickets below mastery (3 or lower) on the same tag → flag the site coordinator at the next check-in ([D4](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)). The flag travels *with the tagged tickets*, so the coaching conversation starts from evidence, not recollection.
 
-## Mastery scale (1–4, defined once — same words on the [rubric](/tutor-training-course/coaching/observation-rubric.md))
+## Mastery scale (1–4, defined once — same words on the [rubric](../coaching/observation-rubric.md))
 
 | Score | What it means | Observable |
 |---|---|---|
@@ -39,8 +39,8 @@ Recorded the **same day**, after every session (~3 minutes) · Serves [Domain 5:
 1. **Initials only.** Not first names, never surnames. If two students share initials, add a scheme digit (A.O.₁) — not a name.
 2. **No photos of student work, ever.** If you need the artifact, keep the paper in the site folder per the school's agreement.
 3. **No grades that could identify a child outside the group.** The tracker lives with the tutor (paper) and, if digital, only in the organization-managed account — never a personal phone, personal email, or personal cloud.
-4. **Aggregate up, never student-level.** What the coordinator and the [measurement plan](/tutor-training-course/program/measurement-plan.md) receive is tag-level counts (e.g., "4 flags on MOVE·M2 this month"), not rows.
-5. **When in doubt, stop and ask.** Safeguarding and data rules are set by the school and your organization's own training — [that placeholder](/tutor-training-course/modules/safeguarding.md) outranks anything written here.
+4. **Aggregate up, never student-level.** What the coordinator and the [measurement plan](../program/measurement-plan.md) receive is tag-level counts (e.g., "4 flags on MOVE·M2 this month"), not rows.
+5. **When in doubt, stop and ask.** Safeguarding and data rules are set by the school and your organization's own training — [that placeholder](../modules/safeguarding.md) outranks anything written here.
 
 ## Why paper-compatible
 
@@ -48,6 +48,6 @@ The fictional program's tutors work in school corridors and spare rooms, not at 
 
 ## What the coordinator does with it
 
-- Checks flag counts by tag at each [coaching cycle](/tutor-training-course/coaching/coaching-cycle.md) — flags are coaching topics, not performance accusations.
-- Aggregates tags across tutors for the [simulated dashboard](/tutor-training-course/program/dashboard-simulated.md)'s leading indicators.
-- Watches tracker discipline itself: same-day recording (D2) is a [fidelity metric](/tutor-training-course/program/measurement-plan.md) precisely because a tracker filled on Friday from memory is a diary, not data.
+- Checks flag counts by tag at each [coaching cycle](../coaching/coaching-cycle.md) — flags are coaching topics, not performance accusations.
+- Aggregates tags across tutors for the [simulated dashboard](../program/dashboard-simulated.md)'s leading indicators.
+- Watches tracker discipline itself: same-day recording (D2) is a [fidelity metric](../program/measurement-plan.md) precisely because a tracker filled on Friday from memory is a diary, not data.

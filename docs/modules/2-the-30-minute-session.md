@@ -8,13 +8,13 @@ description: The five-part session routine that makes quality repeatable — and
 # Module 2 · The 30-minute session
 
 {: .label .label-green }
-About 25 minutes · Competency domain: **Session structure** · [competency model](/tutor-training-course/research/competency-model.md)
+About 25 minutes · Competency domain: **Session structure** · [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)
 
 ## Objectives
 
 By the end of this module you can:
-1. **Run the five-part 30-minute routine within its time boxes** — warm-up (5'), review (5'), guided practice (12'), independent try (5'), exit ticket (3') — behaviors S1–S2 in the [competency model](/tutor-training-course/research/competency-model.md).
-2. **End every session with the exit ticket administered and collected** (S3) — the single most-skipped behavior, and the one the program's data loop depends on ([rubric Domain 2](/tutor-training-course/coaching/observation-rubric/)).
+1. **Run the five-part 30-minute routine within its time boxes** — warm-up (5'), review (5'), guided practice (12'), independent try (5'), exit ticket (3') — behaviors S1–S2 in the [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md).
+2. **End every session with the exit ticket administered and collected** (S3) — the single most-skipped behavior, and the one the program's data loop depends on ([rubric Domain 2](../coaching/observation-rubric.md)).
 
 ## Scenario hook: the session that ran away
 
@@ -41,7 +41,7 @@ Two structural notes:
 
 ## Model: protecting the time boxes
 
-Excerpt from [Transcript T2](/tutor-training-course/transcripts/t2/) (**fictional, constructed for training**), minute 22 of 30:
+Excerpt from [Transcript T2](../transcripts/t2.md) (**fictional, constructed for training**), minute 22 of 30:
 
 > **Tutor:** Two minutes left of practice, so let's land this one. Mei, read us where you got to.
 >
@@ -60,17 +60,17 @@ Excerpt from [Transcript T2](/tutor-training-course/transcripts/t2/) (**fictiona
 > 0–2' Students trickle in; tutor hands out worksheets. · 2–21' Tutor explains solving `4x + 2 = 14` completely at the board, then two more examples. · 21–26' Students start problems; tutor hovers. · 26–30' "Great work today! Same time Thursday." No exit ticket.
 
 {: .feedback }
-**Diagnosis:** warm-up (missing — cold start), review (missing), guided practice ran 19 minutes (should be 12), independent try shrank to hover-time, exit ticket (missing — the data loop is broken). **Fixes:** (1) protect blocks with a visible timer and start warm-up at minute zero as students arrive; (2) plan the exit ticket *into* the plan, not after it — pick it from the [exit-ticket bank](/tutor-training-course/tools/exit-ticket-bank/) when writing the session plan, so it can't be dropped. A tutor who over-explains is usually practicing the wrong block: move your explanation into the 5-minute review, where it is scheduled.
+**Diagnosis:** warm-up (missing — cold start), review (missing), guided practice ran 19 minutes (should be 12), independent try shrank to hover-time, exit ticket (missing — the data loop is broken). **Fixes:** (1) protect blocks with a visible timer and start warm-up at minute zero as students arrive; (2) plan the exit ticket *into* the plan, not after it — pick it from the [exit-ticket bank](../tools/exit-ticket-bank.md) when writing the session plan, so it can't be dropped. A tutor who over-explains is usually practicing the wrong block: move your explanation into the 5-minute review, where it is scheduled.
 
 ## In your next session, try…
 
-1. Fill the [session plan template](/tutor-training-course/tools/session-plan-template/) *including* the chosen exit ticket before the session.
+1. Fill the [session plan template](../tools/session-plan-template.md) *including* the chosen exit ticket before the session.
 2. Run one full session with a visible countdown for each block.
 3. Collect the exit ticket from every student, finished or not, and note completion on your tracker.
 
 ## Reflection
 
-In the [tutor self-reflection form](/tutor-training-course/tools/tutor-self-reflection/): *Which block do I steal from, and what does that block give my students that I didn't want to lose?* (If your answer is "guided practice" — so does everyone's. The fix is planning less content, not moving faster.)
+In the [tutor self-reflection form](../tools/tutor-self-reflection.md): *Which block do I steal from, and what does that block give my students that I didn't want to lose?* (If your answer is "guided practice" — so does everyone's. The fix is planning less content, not moving faster.)
 
 ## Check yourself
 

@@ -8,19 +8,19 @@ description: 60-minute facilitator guide — probing questions, wait time and th
 # Session B · Rehearsing error handling (facilitator guide)
 
 {: .label .label-blue }
-60 minutes · Week 2 · Prerequisites: [Modules 3–4](/tutor-training-course/modules/) + transcript practice ([spot the move](/tutor-training-course/transcripts/practice/index.html)) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md) (Round 2 deck), hint-ladder cards, [observation rubric](/tutor-training-course/coaching/observation-rubric.md), timers
+60 minutes · Week 2 · Prerequisites: [Modules 3–4](../modules/index.md) + transcript practice ([spot the move](../transcripts/practice/index.html)) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md) (Round 2 deck), hint-ladder cards, [observation rubric](../coaching/observation-rubric.md), timers
 
 ## Objective
 
-Every participant **responds to at least three scripted student errors with a probing question that exposes the misconception — not a correction** — while holding 3–5 second wait time, and climbs the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) one rung per turn. Observers score [rubric Domain 3](/tutor-training-course/coaching/observation-rubric.md) and call "seconds of silence" out loud.
+Every participant **responds to at least three scripted student errors with a probing question that exposes the misconception — not a correction** — while holding 3–5 second wait time, and climbs the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) one rung per turn. Observers score [rubric Domain 3](../coaching/observation-rubric.md) and call "seconds of silence" out loud.
 
 ## Why errors get their own session
 
-Error handling is the highest-leverage, most counter-instinctive skill in the repertoire: the tutor's every reflex — explain, fix, rescue, reassure — is wrong, and the correct behavior (a question, then silence) feels passive and even rude. That combination — high leverage, anti-instinctive — is exactly what rehearsal is for. Reading [Module 3](/tutor-training-course/modules/3-questions-wait-time-and-errors.md) is not enough; [T2](/tutor-training-course/transcripts/t2.md) shows it; this session makes the mouth do it.
+Error handling is the highest-leverage, most counter-instinctive skill in the repertoire: the tutor's every reflex — explain, fix, rescue, reassure — is wrong, and the correct behavior (a question, then silence) feels passive and even rude. That combination — high leverage, anti-instinctive — is exactly what rehearsal is for. Reading [Module 3](../modules/3-questions-wait-time-and-errors.md) is not enough; [T2](../transcripts/t2.md) shows it; this session makes the mouth do it.
 
 ## Room setup
 
-- Groups of 3 again, roles rotating; **this session's student cards carry misconception profiles** (M1–M5 from the [misconception bank](/tutor-training-course/tools/exit-ticket-bank.md)): the student-role-player has a script of *how* they got stuck and a "reveal" they give only if the tutor's probing question actually lands on it.
+- Groups of 3 again, roles rotating; **this session's student cards carry misconception profiles** (M1–M5 from the [misconception bank](../tools/exit-ticket-bank.md)): the student-role-player has a script of *how* they got stuck and a "reveal" they give only if the tutor's probing question actually lands on it.
 - Observers get two jobs: score Domain 3 rows, and **count silence** (say "wait" silently, fingers up per second — visible to the tutor, brutal and effective).
 - Hint-ladder cards (L0–L5) face up on the table; tutors must *place their hand on the rung* they are about to use before speaking. Physicalizing the ladder breaks the "skip to the answer" reflex faster than any reminder.
 
@@ -28,14 +28,14 @@ Error handling is the highest-leverage, most counter-instinctive skill in the re
 
 | Minutes | Block | What happens |
 |---|---|---|
-| 0–5 | Frame | Objective; read one exchange each from [T2](/tutor-training-course/transcripts/t2.md) ("what the ladder sounds like") and [T6](/tutor-training-course/transcripts/t6.md) ("what the takeover sounds like"). Establish the round structure. |
+| 0–5 | Frame | Objective; read one exchange each from [T2](../transcripts/t2.md) ("what the ladder sounds like") and [T6](../transcripts/t6.md) ("what the takeover sounds like"). Establish the round structure. |
 | 5–15 | Round 1 · one error, full ladder | Tutor gets a student card with ONE misconception (e.g., M3: `2(x − 4) = 2x − 4`). The student commits the error and responds only to questions the tutor asks. Observer calls rung numbers and seconds of silence. **Goal: student finds the fix before rung L3.** |
 | 15–22 | Debrief round 1 | Did the probing question land on the misconception, or nearby? Play back the exact wording. Re-run ONE exchange with a sharper question, same roles. |
 | 22–34 | Round 2 · pressure test | Harder cards: student says "just tell me," "I'm bad at math," or goes silent. Tutor must hold the frame: acknowledge, stay on the ladder, never hand the answer. Observer watches for the two failure modes: rescuing and lecturing. |
 | 34–42 | Debrief round 2 + micro-teach | Facilitator models the two hardest lines live: the "just tell me" response ("Let's test it — substitute your guess back in; what do you get?") and the stuck-silence response (drop a rung, never the answer). |
 | 42–52 | Round 3 · chain drill | Quick-fire reps, 90 seconds each, rotating tutors: one error → probe → student reveals → confirm and ask why → offer a similar problem. Three moves in one chain; observers tick the chain on the rubric. |
 | 52–58 | Whole-group debrief | Questions below. Commitment: each tutor names the ONE response they will rehearse in their head during real sessions this week. |
-| 58–60 | Close | [Self-reflection](/tutor-training-course/tools/tutor-self-reflection.md); facilitator logs rubric sheets for the Week-3 baseline ([measurement plan](/tutor-training-course/program/measurement-plan.md)). |
+| 58–60 | Close | [Self-reflection](../tools/tutor-self-reflection.md); facilitator logs rubric sheets for the Week-3 baseline ([measurement plan](../program/measurement-plan.md)). |
 
 ## Observer checklist (Domain 3 + Domain 4) — print per round
 
@@ -68,4 +68,4 @@ Error handling is the highest-leverage, most counter-instinctive skill in the re
 
 - The counter-instinct is the whole game. Expect and *welcome* bad rounds in Round 1 — the debrief exists because the takeover reflex is universal, not because anyone is weak.
 - If a tutor can't find any probing question, give them the stem, not the question: "When you [moved / divided / distributed] …, what happened to …?" Stems are on the back of the ladder cards.
-- Keep the math fixed (one planned skill per round). This session trains *response*, not content knowledge — [Session A](session-a.md) owns the routine, the coaching cycle ([coaching-cycle.md](/tutor-training-course/coaching/coaching-cycle.md)) individualizes it later.
+- Keep the math fixed (one planned skill per round). This session trains *response*, not content knowledge — [Session A](session-a.md) owns the routine, the coaching cycle ([coaching-cycle.md](../coaching/coaching-cycle.md)) individualizes it later.

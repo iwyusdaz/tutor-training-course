@@ -8,13 +8,13 @@ description: The exit ticket closes the loop — collect, record same-day, choos
 # Module 5 · Using exit tickets and data
 
 {: .label .label-green }
-About 25 minutes · Competency domain: **Data use** · [competency model](/tutor-training-course/research/competency-model.md)
+About 25 minutes · Competency domain: **Data use** · [competency model](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/competency-model.md)
 
 ## Objectives
 
 By the end of this module you can:
-1. **Run the full data loop every session:** exit ticket given and collected (D1) → results recorded same day in the [progress tracker](/tutor-training-course/tools/student-progress-tracker.md) (D2) → next session's plan chosen from the results (D3) → stuck students escalated after two consecutive below-mastery tickets (D4).
-2. **Keep the data privacy-safe:** initials only, no grades that identify students beyond the group, no photos of student work, storage per your school's agreement ([measurement plan §privacy](/tutor-training-course/program/measurement-plan.md)).
+1. **Run the full data loop every session:** exit ticket given and collected (D1) → results recorded same day in the [progress tracker](../tools/student-progress-tracker.md) (D2) → next session's plan chosen from the results (D3) → stuck students escalated after two consecutive below-mastery tickets (D4).
+2. **Keep the data privacy-safe:** initials only, no grades that identify students beyond the group, no photos of student work, storage per your school's agreement ([measurement plan §privacy](../program/measurement-plan.md)).
 
 ## Scenario hook: the folder nobody read
 
@@ -26,14 +26,14 @@ By the end of this module you can:
 
 The exit ticket has one job: **to change your next session plan.** A ticket that doesn't alter a plan is busywork. Four steps, ~4 minutes of your time per session:
 
-1. **Give it** — one to two items from the [exit-ticket bank](/tutor-training-course/tools/exit-ticket-bank.md), tagged to this week's skill and misconception. Last 3 minutes, every session, no exceptions.
-2. **Record it same-day** — initials, skill tag, mastery 1–4 ([tracker template](/tutor-training-course/tools/student-progress-tracker.md)). Same-day matters: memory decays; the tracker is the program's memory.
-3. **Read it for the plan** — the review block of your next session comes from the *most common* error; guided practice targets the *skill behind it*. Write the connection on the [session plan](/tutor-training-course/tools/session-plan-template.md) ("review: M1 one-side subtraction — from Tuesday's tickets").
-4. **Escalate the stuck** — a student below mastery on the same skill tag for **two consecutive tickets** goes to your site coordinator (that's the [coaching cycle](/tutor-training-course/coaching/coaching-cycle.md)'s trigger), with the tagged tickets attached. Waiting for the next observation wastes two weeks of the student's dosage.
+1. **Give it** — one to two items from the [exit-ticket bank](../tools/exit-ticket-bank.md), tagged to this week's skill and misconception. Last 3 minutes, every session, no exceptions.
+2. **Record it same-day** — initials, skill tag, mastery 1–4 ([tracker template](../tools/student-progress-tracker.md)). Same-day matters: memory decays; the tracker is the program's memory.
+3. **Read it for the plan** — the review block of your next session comes from the *most common* error; guided practice targets the *skill behind it*. Write the connection on the [session plan](../tools/session-plan-template.md) ("review: M1 one-side subtraction — from Tuesday's tickets").
+4. **Escalate the stuck** — a student below mastery on the same skill tag for **two consecutive tickets** goes to your site coordinator (that's the [coaching cycle](../coaching/coaching-cycle.md)'s trigger), with the tagged tickets attached. Waiting for the next observation wastes two weeks of the student's dosage.
 
 ## Model: 90 seconds that changed a plan
 
-Excerpt from [Transcript T5](/tutor-training-course/transcripts/t5/) (**fictional, constructed for training**), coordinator's data check:
+Excerpt from [Transcript T5](../transcripts/t5.md) (**fictional, constructed for training**), coordinator's data check:
 
 > **Tutor:** Tuesday's tickets: Amara 3 on distribute, 2 on signs. Jayden 3 and 3. Luis 1 on signs — again. Second time on signs.
 >
@@ -57,7 +57,7 @@ Excerpt from [Transcript T5](/tutor-training-course/transcripts/t5/) (**fictiona
 Write: (a) your review block topic, (b) your guided-practice target, (c) who you escalate, (d) one thing you still don't know from these numbers.
 
 {: .feedback }
-**(a) Review: the balance idea / sign-when-moving** — the group's weakest shared concept (SIGN: 1, 3, 1, 4). **(b) Guided practice: distribute with negatives**, bracketed by A.O. and L.R.'s 2s, while D.K. gets a similar-but-harder offer. **(c) Escalate: A.O. and L.R.** — both have SIGN = 1 with the concept tag (BAL) low too; two consecutive (per the scenario's history) or one ticket + concept gap both justify the flag. **(d) What you don't know: *why*** — a 1 says the skill failed, not which misconception drove it. That's what the [probing question](/tutor-training-course/modules/3-questions-wait-time-and-errors.md) is for: the ticket tells you *where to dig*, not *what you'll find*.
+**(a) Review: the balance idea / sign-when-moving** — the group's weakest shared concept (SIGN: 1, 3, 1, 4). **(b) Guided practice: distribute with negatives**, bracketed by A.O. and L.R.'s 2s, while D.K. gets a similar-but-harder offer. **(c) Escalate: A.O. and L.R.** — both have SIGN = 1 with the concept tag (BAL) low too; two consecutive (per the scenario's history) or one ticket + concept gap both justify the flag. **(d) What you don't know: *why*** — a 1 says the skill failed, not which misconception drove it. That's what the [probing question](3-questions-wait-time-and-errors.md) is for: the ticket tells you *where to dig*, not *what you'll find*.
 
 ## In your next session, try…
 
@@ -67,7 +67,7 @@ Write: (a) your review block topic, (b) your guided-practice target, (c) who you
 
 ## Reflection
 
-In the [tutor self-reflection form](/tutor-training-course/tools/tutor-self-reflection.md): *What did this week's tickets change in my plan? If nothing — why was I collecting them?*
+In the [tutor self-reflection form](../tools/tutor-self-reflection.md): *What did this week's tickets change in my plan? If nothing — why was I collecting them?*
 
 ## Check yourself
 
