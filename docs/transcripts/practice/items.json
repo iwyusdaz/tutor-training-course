@@ -27,9 +27,11 @@
       "source": "Transcript T1 \u00b7 strong session \u00b7 guided practice",
       "transcript": "../t1.html",
       "exchange": [
-        "Luis: \u2026plus 5 both sides? So 2x = 16.",
+        "Luis: Plus 3\u2026 wait, minus 8 plus 3 is minus 5. So 2x \u2212 5 = 11.",
         "Tutor: (says nothing for about four seconds)",
-        "Luis: \u2026and the sign flips because we're subtracting minus 5."
+        "Luis: \u2026plus 5 both sides? So 2x = 16.",
+        "Tutor: Say why plus.",
+        "Luis: To move the \u22125\u2026 and the sign flips because we're subtracting minus 5."
       ],
       "options": [
         { "text": "wait time", "correct": true },
@@ -112,7 +114,8 @@
       "source": "Transcript T5 \u00b7 weak session \u00b7 the one real error",
       "transcript": "../t5.html",
       "exchange": [
-        "Imani: 2(x \u2212 4) = 2x \u2212 4\u2026 I think so?",
+        "Tutor: Now you try \u2014 well, we'll do it together, I'll guide. 2(x \u2212 4) = 2x \u2212 4, is that right, Imani?",
+        "Imani: I think so\u2026?",
         "Tutor: You're close, but no \u2014 when you distribute, the 2 has to multiply both things inside, so it's 2x \u2212 8, not 2x \u2212 4. Let me write it: 2 times \u22124 is \u22128. Okay?"
       ],
       "options": [
@@ -122,7 +125,7 @@
         { "text": "worked example after repeated failure" }
       ],
       "effectiveness": "no",
-      "feedback": "This is correcting the error outright \u2014 the tutor names the misconception, performs the fix, and ends with 'Okay?' (approval-seeking). The rule it breaks: expose, don't correct. 'What did the 2 multiply?' points the student at the exact spot and lets HER find \u22128. Self-found fixes stick; received fixes evaporate by Thursday."
+      "feedback": "This is correcting the error outright \u2014 on an is-it-right question Nadia herself framed. The tutor names the misconception, performs the fix, and ends with 'Okay?' (approval-seeking). The rule it breaks: expose, don't correct. 'What did the 2 multiply?' points the student at the exact spot and lets HER find \u22128. Self-found fixes stick; received fixes evaporate by Thursday."
     },
     {
       "id": "q8",
@@ -146,7 +149,7 @@
       "source": "Transcript T2 \u00b7 strong session \u00b7 after Mei's breakthrough",
       "transcript": "../t2.html",
       "exchange": [
-        "Mei: \u2026minus 5 both sides: 4x = \u22128. x = \u22122. (checks) \u221211 and \u221211!",
+        "Mei: \u2026minus 5 both sides: 4x = \u22128. x = \u22122. (checks) 6(\u22122) + 5 is \u22127\u2026 and 2(\u22122) \u2212 3 is \u22127. \u22127 and \u22127!",
         "Tutor: You did the whole ladder yourself. Why subtract the 5 and not add it?"
       ],
       "options": [
@@ -156,7 +159,7 @@
         { "text": "offer a similar problem" }
       ],
       "effectiveness": "yes",
-      "feedback": "Confirm and ask why: brief confirmation ('you did the whole ladder yourself') followed by ONE why-question. The why at the moment of success is where understanding consolidates \u2014 and then the tutor moves on, rather than interrogating a right answer. The very next line of T2 is the other half of the chain: 'One more, same shape\u2026' \u2014 the offer of a similar problem."
+      "feedback": "Confirm and ask why: brief confirmation ('you did the whole ladder yourself') followed by ONE why-question. The why at the moment of success is where understanding consolidates \u2014 and then the tutor moves on, rather than interrogating a right answer. The next line of T2 offers the group a similar problem (`8x \u2212 3 = 4x + 5`) \u2014 the other half of the chain."
     },
     {
       "id": "q10",

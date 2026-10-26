@@ -11,7 +11,8 @@
     "eval:dry-run": "node evaluation/run-simulations.mjs --dry-run && node evaluation/run-review-panel.mjs --dry-run",
     "test:keyboard": "node evaluation/tests/keyboard-tests.mjs",
     "test:aria": "node evaluation/tests/aria-snapshot.mjs",
-    "verify": "node evaluation/tests/keyboard-tests.mjs && node evaluation/tests/aria-snapshot.mjs"
+    "test:frontmatter": "node evaluation/tests/frontmatter-check.mjs",
+    "verify": "node evaluation/tests/keyboard-tests.mjs && node evaluation/tests/aria-snapshot.mjs && node evaluation/tests/frontmatter-check.mjs"
   },
   "devDependencies": {
     "playwright": "1.57.0"

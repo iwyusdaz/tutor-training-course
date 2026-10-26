@@ -69,7 +69,7 @@ Error shown on the item (true/false again). Probe: *"When 2x left the right side
 ## Tier 4 — dividing and special cases (weeks 5–8)
 
 **Item 16 · `4x = 12` → a student writes `x = 12` · DIV · M4 (classic)**
-Shown as an error to explain. Probe: *"You divided the 4x by 4. What else is on that side of the equals sign?"*
+Shown as an error to explain. Probe: *"You divided the 4x by 4 — what did you divide on the other side of the equals sign?"*
 
 **Item 17 · `4x + 2 = 14` → a student writes `x + 2 = 3.5`… then `x = 1.5` · DIV · M4**
 The "divided everything except the +2" error. Probe: *"If you divide ONE side by 4, what has to happen to the other side — every term on it?"*

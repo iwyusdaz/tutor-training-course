@@ -8,7 +8,7 @@ description: 60-minute facilitator guide — three rounds of role-play through t
 # Session A · Rehearsing the session routine (facilitator guide)
 
 {: .label .label-blue }
-60 minutes · Weeks 1 · Prerequisites: [Modules 1–2](../modules/index.md) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md), printed [session plan template](../tools/session-plan-template.md), timers, the [observation rubric](../coaching/observation-rubric.md) (one per observer)
+60 minutes · Week 1 · Prerequisites: [Modules 1–2](../modules/index.md) complete · 6–14 participants · Materials: [role-play cards](role-play-cards.md), printed [session plan template](../tools/session-plan-template.md), timers, the [observation rubric](../coaching/observation-rubric.md) (one per observer)
 
 ## Objective
 
