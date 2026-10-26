@@ -41,17 +41,11 @@ Two structural notes:
 
 ## Model: protecting the time boxes
 
-Excerpt from [Transcript T2](../transcripts/t2.md) (**fictional, constructed for training**), minute 22 of 30:
+Verbatim excerpt from [Transcript T2](../transcripts/t2.md) (**fictional, constructed for training**), minute 25 of 30 — the boundary between guided practice and the independent try:
 
-> **Tutor:** Two minutes left of practice, so let's land this one. Mei, read us where you got to.
->
-> **Mei:** I have `3(x + 2) − 4 = 11`. I distributed and got `3x + 2 − 4`.
->
-> **Tutor:** Hold that thought — that's exactly our review item tomorrow. [keeps the error alive, defers it: the routine, not the rabbit hole] Independent try: everyone solves `2(x + 5) = 26` alone. Five minutes. If you finish, check by substituting back. [starts the timer]
->
-> *(At minute 30, tickets are out. Two students hand in complete answers; Jayden's is half-finished — it gets collected anyway.)* [S3 even when imperfect]
+> **Grace:** Everyone — one solo problem, then it's the ticket. `8x − 3 = 4x + 5`. Tomás, watch that −3. [the block ends on schedule, and the error thread moves with it] Ticket's on the table: same family, two questions. I collect them at the door even if they're half-done. [S3 even when imperfect]
 
-**What to notice:** the tutor names Mei's error, declines to fix it *inside the wrong block*, and converts it into tomorrow's review. Every block ends on time because the tutor treats the plan as a contract with the data loop.
+**What to notice:** guided practice ends when the plan says it ends — mid-thread, not mid-lecture ("Tomás, watch that −3" carries the trap forward without a rabbit hole). The ticket is promised *before* the independent try starts, and "even if they're half-done" protects the data. Earlier in the same session (annotation 8), Grace handles Mei's stuck step with a worked example on a *similar* problem instead of letting her original problem eat the clock — the block structure is what makes that discipline possible.
 
 ## Practice with feedback
 

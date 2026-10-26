@@ -77,7 +77,7 @@ D1  Greet each by name (first minute)          ☐
 D1  Specific reference to recorded work        ☐   (who: ____)
 D1  Every student produces at least once       ☐
 D2  Warm-up ≤5′ / Review ≤5′ / GP ≤12′ / IT ≤5′ / ET ≤3′
-    (actual times)  ____ ____ ____ ____
+    (actual times)  ____ ____ ____ ____ ____
 D2  Exit ticket collected (incl. incomplete)   ☐
 D2  Review topic named from ticket data        ☐
 D3  Probing question before explaining (×___)  ☐

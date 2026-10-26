@@ -32,17 +32,27 @@ By the end of this module you can:
 
 **Normalize errors as you go:** "That's the trap this problem sets — let's look at it" beats "no, again?" every time. Students who believe errors are information take the risks that produce thinking.
 
-## Model: a repaired error, closed properly
+## Model: a solved problem, closed properly
 
-Excerpt from [Transcript T1](../transcripts/t1.md) (**fictional, constructed for training**):
+Verbatim excerpt from [Transcript T1](../transcripts/t1.md) (**fictional, constructed for training**) — the end of guided practice: confirm, ask why once, then offer the similar problem:
 
-> **Elena:** `2(x − 4) = 2x − 4`… wait. 2 times −4 is −8, so `2x − 8`.
+> **Luis:** …plus 5 both sides? So `2x = 16`.
 >
-> **Tutor:** You caught it *yourself* — last session that one slipped by, and today you caught it mid-step. [specific: names the growth] Why does the 2 have to hit both terms? [confirm and ask why]
+> **Nina:** Say why plus.
 >
-> **Elena:** Because it multiplies the whole parentheses, not just the first part.
+> **Luis:** To move the −5… and the sign flips because we're subtracting minus 5.
 >
-> **Tutor:** Exactly. One more, same shape but negatives on the other side: `3(x + 2) = 3x + 10`. Want to see what changes? [offer a similar problem]
+> **Nina:** You kept both sides balanced — that's the move. Now x? [confirm and ask why]
+>
+> **Luis:** Divide by 2 — `x = 8`!
+>
+> **Nina:** Check it for us.
+>
+> **Luis:** 2(8 − 4) + 3… 8 + 3 = 11. Yes! [the student checks his own work]
+>
+> **Nina:** Same shape, new numbers: `3(x + 2) − 5 = 16`. Solo, four minutes — I'm not talking. If you finish, check by substituting. [offer a similar problem]
+
+**What to notice:** the confirmation names the *process* ("you kept both sides balanced"), the why comes once and then the tutor moves on, and the similar problem arrives as an offer with the tutor going silent — ownership stays with the student. (For the specific-feedback habit — naming the work, not the person — see T1's opening exchange and annotation 6.)
 
 ## Practice with feedback
 

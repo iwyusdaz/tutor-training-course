@@ -2,7 +2,7 @@
 title: "Pilot report (template — pending)"
 parent: Program measurement
 nav_order: 5
-description: The template for the planned pilot of Modules 3–4 + transcript practice with 3–5 adults. Status: NOT RUN — no results, no claims.
+description: "The template for the planned pilot of Modules 3–4 + transcript practice with 3–5 adults. Status: NOT RUN — no results, no claims."
 ---
 
 # Pilot report

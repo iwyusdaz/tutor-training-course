@@ -31,7 +31,7 @@ The transcript annotations (numbered after each exchange) are the tiebreaker: po
 
 **Round 3 · The hard one (20 min).** Score T5 (weak end). The drift that matters most is *severity*: new scorers round up for warmth ("she was so prepared!"). Anchor discipline: the rubric scores **student production**, not tutor effort. If Domain 3 comes out ≥2 for T5, re-read annotation 1: ninety seconds, zero questions, students produce nothing. The correct score is 1 — feel the difference; that's the calibration.
 
-**Round 4 · Split scoring (20 min).** T3 exists to prove the rubric scores domains separately: questioning at 4, data use at 1, in the *same session*. Anyone who "averages T3 to a 3" misses the design — and would coach T3's tutor wrong (the [T3 debrief](../transcripts/t3.md) leads with the strength precisely because the weakness is in a different domain).
+**Round 4 · Split scoring (20 min).** T3 exists to prove the rubric scores domains separately: questioning at 4, data use at 1, in the *same session*. Anyone who "averages T3 to a 3" misses the design — and would coach T3's tutor wrong (the [T3 debrief](../transcripts/t3.md) leads with the strength precisely because the weakness is in a different domain). *Note: the transcripts' own "Rubric read" sections were re-scored against the anchors on 2026-10-26 (T3's Domain 2 = 1 per the exit-ticket cap, Domain 1 = 3; T6's Domain 2 = 1; T4's Domain 5 = 2), so the published scores and this protocol now agree — if you and a page ever disagree again, the anchor text wins.*
 
 **Close (a few minutes):** record the agreed scores in the [calibration log](#calibration-log) and set the year's rules of the house (below).
 

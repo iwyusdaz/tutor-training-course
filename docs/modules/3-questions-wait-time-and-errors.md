@@ -28,7 +28,7 @@ Tutor A fixed the math and taught nothing — next week the same error returns. 
 
 ## Key idea: three habits that keep the student thinking
 
-**1. Open with a probing question — Level 0 of the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) (shared vocabulary with the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/)).** Before any explaining: "What have you tried?" or "Talk me through your first step." The student's attempt is the diagnosis: it shows you *which* misconception is operating ([misconception bank](../tools/exit-ticket-bank.md): applying an operation to only one side · sign errors when moving terms · distributing incorrectly · dividing only some terms · equals sign treated as "the answer comes next").
+**1. Open with a probing question — Level 0 of the [hint ladder](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/hint-ladder.md) (shared vocabulary with the [Socratic AI Tutor](https://iwyusdaz.github.io/socratic-ai-tutor/)).** Before any explaining: "What have you tried?" or "Talk me through your first step." The student's attempt is the diagnosis: it shows you *which* misconception is operating (the [exit-ticket bank](../tools/exit-ticket-bank.md) tags every item with one — applying an operation to only one side · sign errors when moving terms · distributing incorrectly · dividing only some terms · equals sign treated as "the answer comes next"; the M1–M5 definitions live in the [evidence notes](https://github.com/iwyusdaz/tutor-training-course/blob/main/research/evidence-notes.md)).
 
 **2. Escalate one rung per turn.** Never two hints in one breath, never a rung-skipping jump to "here's what you do":
 
@@ -47,27 +47,21 @@ Tutor A fixed the math and taught nothing — next week the same error returns. 
 
 ## Model: the ladder in live motion
 
-Excerpt from [Transcript T3](../transcripts/t3.md) (**fictional, constructed for training**). Student error: `3x + 5 = 20 → 3x = 20` (subtracted on the left only — operation applied to one side).
+Verbatim excerpt from [Transcript T3](../transcripts/t3.md) (**fictional, constructed for training**). Jayla has solved `5x + 7 = 2x + 19` (x = 4) correctly, but her check came out unequal:
 
-> **Tutor:** Before I help — walk me through what you did.
+> **Diego:** *(three seconds — real wait time)* And check it?
 >
-> **DeShawn:** I subtracted the 5.
+> **Jayla:** 3(4) + 7 = 19. And 2(4) + 19 = 27… that's not equal?
 >
-> **Tutor:** Okay. When you subtracted 5 from the left side… what did you subtract from the right side? [probing question aimed at the exact spot]
+> **Diego:** Right, so where's the mismatch — left side or right? [probing question at the exact spot]
 >
-> **DeShawn:** *(pause)* …nothing.
+> **Jayla:** The right side. I moved the 19 over but… oh. I subtracted 2x on the left but not the right?
 >
-> **Tutor:** *(3 seconds)* And what does the equals sign promise about the two sides? [conceptual nudge — L1]
+> **Diego:** There it is. What does the equals sign promise? [conceptual nudge — L1]
 >
-> **DeShawn:** That they're… the same.
->
-> **Tutor:** *(3 seconds)* So?
->
-> **DeShawn:** So it should be 20 minus 5 on this side too. `3x = 15`. Then… divide by 3? x = 5!
->
-> **Tutor:** You found it and fixed it yourself — you kept both sides balanced. [confirm + specific feedback] Why did we subtract before dividing? [confirm and ask why]
+> **Jayla:** Both sides stay equal. So I needed `2x` gone from both… [she names her own error]
 
-**What to notice:** three student sentences produced the fix; the tutor's largest contribution was silence. Total tutor words: about 60.
+**What to notice:** the tutor never states the correction — one question at the spot of the error, one conceptual nudge, and Jayla names her own mistake. Diego's largest contribution is the silence before "And check it?". (The session later wobbles — annotation 7 has Diego computing *for* her — which is exactly the habit this module trains against; the transcript keeps that in on purpose.)
 
 ## Practice with feedback
 
@@ -81,7 +75,7 @@ Excerpt from [Transcript T3](../transcripts/t3.md) (**fictional, constructed for
 **Strong responses** (any probing question that exposes the specific spot earns full credit):
 1. "You moved the 4 — where did it start, and what happened to its sign when it crossed?" *(exposes sign error when moving terms)*
 2. "You caught this yesterday too — let's slow down: what does the 2 multiply? Say both of them out loud." *(exposes the distribution; referencing the recurrence is specific, not shaming)*
-3. "You divided the 4x by 4. What else is on that side… and what does the equals sign promise?" *(exposes dividing only some terms via the balance idea)*
+3. "You divided the 4x — what did you divide on the other side… and what does the equals sign promise?" *(exposes dividing only some terms via the balance idea)*
 **Weak responses** to avoid: "Check your sign" (no handle), "You forgot to distribute" (names the label — the misconception does the learning, not the student), "Almost! Try again" (no direction, no wait).
 
 Then try the [spot-the-move practice](../transcripts/practice/index.html) — ten exchanges, you name the move and whether it worked. This is also the pre-task used in the [pilot protocol](https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/human-protocol/pilot-protocol.md) for measuring your own growth.

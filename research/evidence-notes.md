@@ -12,6 +12,7 @@
 
 - Verified via CALDER Working Paper 338-0426 (§2, Literature Review), which states: *"A well-cited meta-analysis of pre-pandemic randomized control trials, for example, found a pooled effect size of 0.37 standard deviation units (Nickow et al., 2020), translating into three to 15 months of additional learning (Robinson et al., 2021)."*
 - URL (accessed 2026-10-25): https://caldercenter.org/sites/default/files/2026-04/CALDER-WP-338-0426.pdf
+- Direct URL for the Nickow paper itself (EdWorking Paper 20-267 — identified and checked during the 2026-10-26 agent review's citation verification; the README initially mis-linked it to the Kraft et al. 2024 paper, fixed 2026-10-26): https://edworkingpapers.com/ai20-267
 
 ### 1b. At scale, the effect is roughly a third to a half as large
 

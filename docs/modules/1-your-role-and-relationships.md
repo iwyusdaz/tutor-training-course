@@ -35,17 +35,13 @@ Why it matters: tutoring works through a consistent adult who knows the student'
 
 ## Model: the first three minutes
 
-This excerpt is from [Transcript T1](../transcripts/t1.md), a **fictional, constructed-for-training** session with three students.
+Verbatim excerpt from [Transcript T1](../transcripts/t1.md) (**fictional, constructed for training**), the session's first exchange:
 
-> **Tutor:** Welcome back, Amara, Jayden, Luis — grab the same seats. Amara, yesterday your distributive step finally clicked; today we start there. [**R1 + R2**]
+> **Nina:** Welcome back — Amara, Jayden, Luis, same seats. Amara, yesterday your distributive step finally clicked; that's where we start today. Luis, last week you told me negative numbers were "out to get you," and then your exit ticket disagreed — so I'm watching you today. [**R1 + R2, specific**]
 >
 > **Amara:** The one with the parentheses?
 >
-> **Tutor:** That's the one. Luis, last week you said negative numbers were "out to get you" — your exit ticket proved otherwise, so I'm watching you today. [**R2, specific**]
->
-> **Luis:** Ha! Okay.
->
-> **Tutor:** Warm-up's on the board, three quick problems, alone start. [**R4: everyone has a job within 60 seconds**]
+> **Nina:** That's the one. Warm-up's on the board — three problems like yesterday's exit ticket, solo start, two minutes. Timer's running. [**R4: everyone has a job within 60 seconds**]
 
 **What to notice:** the references are *specific and public* but never embarrassing — Amara gets a win named, not a failure. Every student is individually addressed inside 60 seconds.
 

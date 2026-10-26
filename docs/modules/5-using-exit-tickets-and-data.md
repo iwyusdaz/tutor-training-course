@@ -31,17 +31,23 @@ The exit ticket has one job: **to change your next session plan.** A ticket that
 3. **Read it for the plan** — the review block of your next session comes from the *most common* error; guided practice targets the *skill behind it*. Write the connection on the [session plan](../tools/session-plan-template.md) ("review: M1 one-side subtraction — from Tuesday's tickets").
 4. **Escalate the stuck** — a student below mastery on the same skill tag for **two consecutive tickets** goes to your site coordinator (that's the [coaching cycle](../coaching/coaching-cycle.md)'s trigger), with the tagged tickets attached. Waiting for the next observation wastes two weeks of the student's dosage.
 
-## Model: 90 seconds that changed a plan
+## Model: the loop T5 never ran
 
-Excerpt from [Transcript T5](../transcripts/t5.md) (**fictional, constructed for training**), coordinator's data check:
+**First, the failure** — verbatim from [Transcript T5](../transcripts/t5.md) (**fictional, constructed for training**), the end of the session (annotation 7):
 
-> **Tutor:** Tuesday's tickets: Amara 3 on distribute, 2 on signs. Jayden 3 and 3. Luis 1 on signs — again. Second time on signs.
+> **Nadia:** Oh no, we're out of time — the exit ticket! We'll do it Thursday, I promise, we just ran over because the examples took longer than I thought. Same time Thursday — you guys were *great* today.
+
+**What it costs:** nothing in that session produced data. Nadia can't choose Thursday's review from results, can't catch a student stuck two sessions running, and her coordinator sees no gap — the loop never closed, so there is nothing to read.
+
+**Then the loop working.** The 90-second same-day check-in that T5's session never had — a constructed example (**not from a transcript**; students shown by initials, as the [tracker](../tools/student-progress-tracker.md) records them):
+
+> **Tutor:** Tuesday's tickets: A.O. 3 on distribute, 2 on signs. J.M. 3 and 3. L.R. 1 on signs — again. Second time on that tag.
 >
 > **Coordinator:** So Thursday?
 >
-> **Tutor:** Review the balance idea for the whole group — Jayden can explain it, he'll enjoy that. Amara goes first in guided practice on signs. And I'm flagging Luis: two ones in a row, same tag. I want a second pair of eyes on whether it's the sign itself or the moving-terms idea underneath.
+> **Tutor:** Review the balance idea for the whole group — J.M. can explain it, that's a real job. A.O. goes first in guided practice on signs. And I'm flagging L.R.: two ones in a row, same tag. I want a second pair of eyes on whether it's the sign itself or the moving-terms idea underneath.
 
-**What to notice:** three different decisions from one ticket round (review topic, seating/sequence, escalation) — and the tutor distinguishes *the symptom* (sign) from *the concept* (balance). That distinction is what the misconception tags are for.
+**What to notice:** three different decisions from one ticket round (review topic, sequencing, escalation) — and the tutor distinguishes *the symptom* (sign) from *the concept* (balance). That distinction is what the misconception tags are for.
 
 ## Practice with feedback
 
