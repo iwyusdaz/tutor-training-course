@@ -2,6 +2,8 @@
 
 **Updated:** 2026-10-26 (revision round from the agent review) · **Repo state:** built, verified, published — https://github.com/iwyusdaz/tutor-training-course (Pages: https://iwyusdaz.github.io/tutor-training-course/)
 
+**Update (2026-11-11): no API key needed anywhere.** The key-gated pipelines (`run-simulations.mjs`, `run-review-panel.mjs`, `lib/env.mjs`, `.env.example`, the `eval:*` scripts) were removed. In their place, one AI agent (Claude, the Kiro build agent) ran a smaller agent-simulated evaluation in the build environment: 9 simulated trainee runs scored against the Domain 3 anchors and a single-agent re-review of the six transcripts. Results in [`evaluation/results/`](evaluation/results/); labeled agent-simulated, single model, not blind, not human results. The Done and Verification sections below are the 2026-10-26 record and mention the removed pipelines as history.
+
 **Build note (resume):** the build started 2026-10-25 and was interrupted by a transient error after 10 commits (scaffold through the evaluation pages), with `evaluation/` untracked. The 2026-10-26 session reviewed the committed work against the specs, kept it unchanged where it passed (content conventions, move names, alignment table), and finished: the pending pipelines, tests, human-protocol additions, site-link repair, governance files, verification and publish. Full record in [DECISIONS.md](DECISIONS.md) D14.
 
 **Revision note (2026-10-26, post-publish):** a separate fresh-context reviewer agent that did not build the repo audited the published site ([`evaluation/agent-review.md`](evaluation/agent-review.md)); its 7 must-fix + 5 should-fix findings were applied the same day — headlined by invalid front-matter YAML that had broken the live navigation invisibly (fixed + a new `test:frontmatter` check), transcript math/label/rubric-score corrections, and module excerpts replaced with verbatim transcript text or relabeled as constructed. Full record in [DECISIONS.md](DECISIONS.md) D17 and [CHANGELOG.md](CHANGELOG.md) 1.0.1.
@@ -36,15 +38,15 @@
 
 ## Pending (requires owner action or future runs)
 
-1. **API keys** in `.env` (MODEL_A/B/C), then `npm run eval:pending` — produces the simulated-trainee runs and the multi-model realism panel; refresh `evaluation/results/` summaries, METHODS.md and the README notice per the rerun procedure written in METHODS §6.
+1. **Open findings from the 2026-11-11 agent-simulated run** (listed in [CHANGELOG.md](CHANGELOG.md) 1.1.0): decide which to apply, including the T2 repair error in a strong calibration anchor and the mislabeled set B item 1.
 2. **Pilot with 3–5 real adults** — protocol, consent text, blind scoring sheet and report template ready in `evaluation/human-protocol/` + `docs/evaluation/pilot-report.md`; results must stay descriptive (no gains claims).
 3. **Manual VoiceOver check** — protocol ready ([voiceover-manual-check.md](evaluation/human-protocol/voiceover-manual-check.md)); Guidepup automation does not function on macOS 27; **no screen-reader testing has been performed** and none is claimed anywhere.
 4. **Owner tasks:** upload `docs/assets/social-preview.png` as the repo social preview (no upload API), fill `[Email]`/`[LinkedIn]` in the README, optional repo pinning.
 
 ## Known limitations (disclosed, not hidden)
 
-- No real results of any kind yet; every results table reads "PENDING: requires API key"; no simulated transcripts, scores or verdicts exist in the repo.
-- Simulated trainees cannot show learning; the pipeline surfaces task clarity and realism problems only.
+- No human or real-learner results of any kind yet. The only results are the 2026-11-11 agent-simulated run, where one agent wrote and scored every response (no second scorer, no agreement statistic).
+- Simulated trainees cannot show learning; the run surfaces task clarity and realism problems only.
 - Agent reviews: in-session pass (2026-10-25) + separate fresh-context pass (2026-10-26, did not build the repo) — but both may share the same underlying model family, so neither is an independent expert judgment; the practitioner realism review remains open.
 - No VoiceOver/screen-reader pass and no daily-AT-user review; the manual protocol is the prepared path.
 - All transcripts and program data are fictional (labeled on every artifact); the practitioner realism review of the transcripts remains open.

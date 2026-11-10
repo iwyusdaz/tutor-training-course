@@ -1,0 +1,190 @@
+{
+  "label": "AGENT-SIMULATED. Not human or real-learner results.",
+  "date": "2026-11-11",
+  "run_by": "One AI agent (Claude, the Kiro build agent) inside the build environment. No API key and no external model service was used.",
+  "design": "9 runs = 3 fictional personas x 3 experience levels. Pre: set A (cold). Post: set B after reading Modules 3 and 4. The same agent wrote every trainee response and then scored every response against the four Domain 3 anchors (0/1/2) from evaluation/human-protocol/blind-scoring-sheet.md.",
+  "limitations": [
+    "Single model: one agent produced and scored everything, so no inter-scorer agreement can be computed.",
+    "Not blind: the scorer wrote the responses and knew persona, level and pre/post phase.",
+    "The original design (MODEL_A produces, MODEL_B and MODEL_C score blind, agreement reported) was not reproduced.",
+    "The agent already knows the module content, so pre/post differences cannot be read as learning.",
+    "Written responses cannot show wait time (behavior Q4)."
+  ],
+  "anchors": {
+    "A1": "Opens with a probing question before explaining (2 = question first; 1 = question after a partial explain; 0 = explain/correct first)",
+    "A2": "Question exposes the misconception's spot, not its label (2 = points at the exact operation; 1 = probes generally; 0 = names the label/corrects)",
+    "A3": "Gives the student room, no answer handed over (2 = no solution content; 1 = a partial step at most; 0 = the fix performed/stated)",
+    "A4": "Normalizes the error and keeps ownership with the student (2 = warm + student acts; 1 = neutral; 0 = cold, rescue, or approval-seeking close)"
+  },
+  "scoring_conventions": [
+    "A question that names the exact computation to do (for example 'What's 2 times -4?') scored A3 = 1 (partial step), not 2.",
+    "A response that states the corrected step or answer scored A4 = 0 (rescue), even when the tone was warm.",
+    "A substitution check ('put 1.5 back in') scored A2 = 1: it probes the answer in general, not the exact operation."
+  ],
+  "personas": {
+    "T1": "Diego, 20, college junior, first tutoring job (fictional). Good at math, no teaching experience; tends to explain rather than ask.",
+    "T2": "Grace, 52, career changer, former accountant (fictional). Patient and encouraging; rusty on current methods.",
+    "T3": "Marcus, 34, community volunteer (fictional). Comfortable with students, improvises under pressure."
+  },
+  "levels": {
+    "L1": "day 1, no modules studied yet",
+    "L2": "onboarding week 2, has read the modules once, has not tutored yet",
+    "L3": "week 6, tutoring solo, one coaching cycle completed"
+  },
+  "items": {
+    "A1": "x - 4 = 10 -> x = 6. 'I moved the 4 over.' (tagged M2)",
+    "A2": "2(x - 4) = 2x - 4. 'Is this right?' (tagged M3)",
+    "A3": "4x = 12 -> x = 12. 'I divided. Wait... did I?' (tagged M4)",
+    "B1": "3x + 5 = 20 -> 3x = 20. 'I subtracted the 5.' (tagged M2)",
+    "B2": "3(x + 2) = 12 -> 3x + 2 = 12. 'I distributed.' (tagged M3)",
+    "B3": "4x + 2 = 14 -> x + 2 = 3.5 -> x = 1.5. 'I divided everything by 4.' (tagged M4)"
+  },
+  "runs": [
+    {
+      "run": "T1-L1",
+      "pre": [
+        { "item": "A1", "response": "Not quite. When you move the 4 over it becomes plus 4, so x = 14.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "A2", "response": "Close, but the 2 has to multiply the -4 too, so it's 2x - 8.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "A3", "response": "You divided the left side but not the right. 12 divided by 4 is 3, so x = 3.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "Okay, you subtracted the 5 on the left. What did you do to the 20?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B2", "response": "You distributed the 3 to the x. What about the 2 inside the parentheses?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B3", "response": "Almost! When you divide everything by 4, the 2 has to be divided too, so it's x + 0.5 = 3.5.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 4", "what": "Most of Module 4 is about feedback after a correct answer. All three post-task items are errors, so only the short 'normalize errors' paragraph applied." },
+        { "where": "Module 3, ladder table", "what": "I could not tell whether a question like 'What did you do to the 20?' counts as L0 or L1, so I did not know how far up the ladder I was allowed to go on the harder item." }
+      ]
+    },
+    {
+      "run": "T1-L2",
+      "pre": [
+        { "item": "A1", "response": "Hmm, how did you move the 4? Actually, subtracting 4 is undone by adding 4, so it should be 14.", "scores": { "A1": 1, "A2": 1, "A3": 0, "A4": 0 } },
+        { "item": "A2", "response": "What's 2 times -4?", "scores": { "A1": 2, "A2": 2, "A3": 1, "A4": 1 } },
+        { "item": "A3", "response": "You divided 4x by 4. Did you do the same to the 12?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You subtracted 5 from the left side. What does the equals sign tell you about the right side?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B2", "response": "That's a really common slip. What did the 3 multiply? Say both of them.", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B3", "response": "You said everything. Look at the +2: what happened to it when you divided?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3, Practice with feedback", "what": "The three practice items are the same errors as the pre-task, with model answers printed underneath. Having read the modules once, I had already seen good answers to the pre-task." }
+      ]
+    },
+    {
+      "run": "T1-L3",
+      "pre": [
+        { "item": "A1", "response": "Talk me through moving the 4. What did you do to both sides?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A2", "response": "Let's check it. What did the 2 multiply?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A3", "response": "Good instinct to double-check. What did you divide on the right side?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You subtracted the 5 from the left. Where did the 20 go? What does the equals sign promise?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B2", "response": "Nice, you started distributing. Did the 3 reach everything inside the parentheses?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B3", "response": "Let's test it: put 1.5 back into 4x + 2. Do you get 14?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3, Practice with feedback, strong response 1", "what": "The model answer asks 'what happened to its sign when it crossed?'. That leans on the 'flip the sign when it crosses' rule, which the misconception bank gives as the cause of M2. 'What did you do to both sides?' would match the module's own balance idea." }
+      ]
+    },
+    {
+      "run": "T2-L1",
+      "pre": [
+        { "item": "A1", "response": "Oh, that's okay, lots of people do that! When the 4 moves over it changes to plus, so it's 10 plus 4, which makes 14. Try again?", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "A2", "response": "You're so close! Remember the 2 multiplies both numbers inside. What would 2 times 4 be?", "scores": { "A1": 0, "A2": 1, "A3": 1, "A4": 1 } },
+        { "item": "A3", "response": "Good for you for checking! What did you divide by? Let's look at the 12 together.", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "Good thinking to subtract the 5. What happens on the other side of the equals sign when you do that?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B2", "response": "That's a common mix-up, don't worry. The 3 has to multiply the 2 as well, so it's 3x + 6.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "B3", "response": "You divided by 4, nice idea. Did every term get divided? Look at the 2.", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3, 'name the spot, never the label'", "what": "I was not sure whether 'Did every term get divided?' is naming the spot or naming the label. One worked contrast for each misconception would help." },
+        { "where": "Modules 3 and 4, codes", "what": "The modules use L0 to L5 and Q1 to Q6 codes. As a newcomer I had to keep scrolling back to the ladder table to remember what each code meant." }
+      ]
+    },
+    {
+      "run": "T2-L2",
+      "pre": [
+        { "item": "A1", "response": "Let's slow down. What did you do to get rid of the minus 4?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A2", "response": "I'm glad you asked. Can you tell me what the 2 is multiplying?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "A3", "response": "Asking 'did I?' is a good catch. What does 4x mean, and what did you do to the 12?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You subtracted 5. Where else does that 5 need to come off?", "scores": { "A1": 2, "A2": 2, "A3": 1, "A4": 1 } },
+        { "item": "B2", "response": "You did distribute the 3 to the x, that's the right idea. What about the 2?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B3", "response": "Everything? Let's check each piece. What is 2 divided by 4?", "scores": { "A1": 2, "A2": 2, "A3": 1, "A4": 1 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 4", "what": "Module 4 tells me what to say when a student is right. These tasks are all errors, so I mostly used Module 3 and only the one line about 'that's the trap this problem sets'." }
+      ]
+    },
+    {
+      "run": "T2-L3",
+      "pre": [
+        { "item": "A1", "response": "Show me what you did with the 4. What did you do to the 10?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A2", "response": "Good question to ask. Let's check: what did the 2 multiply?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "A3", "response": "Hmm, let's find out. If x is 12, what is 4x?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You did subtract the 5 on the left. What does the equals sign promise about the right?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B2", "response": "That's the trap this one sets. What did the 3 multiply?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B3", "response": "You divided the 4x and the 14 nicely. What about the +2?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3, ladder table", "what": "The L3 example ('Subtract 5 from both sides. What do you get?') is almost the fix for post-task item 1. It was not clear whether the task wants an L0 question or allows L3." }
+      ]
+    },
+    {
+      "run": "T3-L1",
+      "pre": [
+        { "item": "A1", "response": "Ah, I see what happened. You did 10 minus 4, but it's x minus 4, so you add. x = 14. Easy fix!", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "A2", "response": "Is it right? Let's see. Try putting a number in for x and see if both sides match.", "scores": { "A1": 1, "A2": 1, "A3": 2, "A4": 2 } },
+        { "item": "A3", "response": "Good question. What's 4 times 12?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "Okay, you took 5 off the left. Fair is fair: what about the right side?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "B2", "response": "You distributed the 3 to the x, but the 3 has to go to the 2 too, so 3x + 6.", "scores": { "A1": 0, "A2": 0, "A3": 0, "A4": 0 } },
+        { "item": "B3", "response": "Everything? What happened to the 2?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3", "what": "The module does not say what to do when I only have a few seconds with one student before moving to the next. Under time pressure my instinct is still to just fix it." }
+      ]
+    },
+    {
+      "run": "T3-L2",
+      "pre": [
+        { "item": "A1", "response": "Walk me through it. You moved the 4, so what did you do to the 10?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A2", "response": "Let's test it with x = 5. What do you get for each side?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } },
+        { "item": "A3", "response": "You're right to wonder. What does 4x mean?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You subtracted the 5 from the left. And the right?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B2", "response": "Mm, check it: what's 3 times 2?", "scores": { "A1": 2, "A2": 2, "A3": 1, "A4": 1 } },
+        { "item": "B3", "response": "Everything? Let's see: what's 4 times 1.5, plus 2?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 1 } }
+      ],
+      "materials_feedback": [
+        { "where": "Module 3, scenario hook", "what": "Tutor B and Tutor C ask almost the same question; the difference is the wait. A written answer cannot show a wait, so I could not tell how the post-task checks that part of the module." }
+      ]
+    },
+    {
+      "run": "T3-L3",
+      "pre": [
+        { "item": "A1", "response": "Tell me how you moved the 4. What did you do to both sides?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "A2", "response": "Good on you for asking. What did the 2 multiply? Point to both.", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } },
+        { "item": "A3", "response": "Let's check: plug 12 back in. Does 4 times 12 make 12?", "scores": { "A1": 2, "A2": 1, "A3": 2, "A4": 2 } }
+      ],
+      "post": [
+        { "item": "B1", "response": "You took the 5 off the left. What did you do on the right?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B2", "response": "You distributed the 3 to the x. Did it get to the 2 as well?", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 1 } },
+        { "item": "B3", "response": "That's the trap this one sets. Point to each term and tell me what you divided it by.", "scores": { "A1": 2, "A2": 2, "A3": 2, "A4": 2 } }
+      ],
+      "materials_feedback": [
+        { "where": "Pre/post item 1", "what": "Item 1 felt like a different kind of mistake before and after: the pre-task one was about the sign, the post-task one was about forgetting the other side." }
+      ]
+    }
+  ]
+}

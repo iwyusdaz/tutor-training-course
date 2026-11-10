@@ -4,7 +4,7 @@ A blended training program that prepares new tutors — college students and com
 
 **[Live site](https://iwyusdaz.github.io/tutor-training-course/)** · **[Research and competency model](research/)** · Role: Sole designer
 
-**Evaluation status:** Automated accessibility testing and agent-based design reviews are complete. AI-simulated learner and review-panel evaluations are pending. No real learners have tested this yet. See [evaluation/METHODS.md](evaluation/METHODS.md).
+**Evaluation status:** Automated accessibility testing and agent-based design reviews are complete. An agent-simulated trainee run and a transcript-realism re-review are complete (one AI agent, single model, 2026-11-11; not human results), with their findings recorded as open revisions. No real learners have tested this yet. See [evaluation/METHODS.md](evaluation/METHODS.md).
 
 Bridge Math Tutoring is a **fictional organization**. All transcripts, dashboards and program data are fictional or simulated and labeled as such on every page.
 
@@ -50,7 +50,7 @@ The full sessions, with numbered annotations naming each move and its effect: [t
 1. **Analysis:** tutoring-effectiveness research traced to primary sources ([research/evidence-notes.md](research/evidence-notes.md)) — every claim carries a URL and access date, and one plan-level claim (the at-scale effect size) was **corrected against the primary source** during verification.
 2. **Design:** a five-domain competency model; module objectives written as observable behaviors; an [alignment table](docs/program/alignment-table.md) forcing every objective → module → practice → rubric row → fidelity metric link to exist (an objective with no metric is decoration; a metric with no objective is surveillance).
 3. **Build:** five self-paced modules (≤ 25 min each) + a safeguarding placeholder; six annotated fictional transcripts; the spot-the-move practice tool; two 60-minute live role-play facilitator guides with role-play cards; four tutor tools; a one-page observation rubric with behavioral anchors; the coaching cycle, conversation guide and a calibration activity; the measurement plan with a simulated six-school dashboard; the four-week onboarding timeline.
-4. **Evaluate (in progress):** automated accessibility audit + scripted keyboard/reflow tests + aria-tree captures (done); agent design review and transcript-realism review — two passes: in-session (2026-10-25) and a separate fresh-context reviewer agent ([evaluation/agent-review.md](evaluation/agent-review.md), 2026-10-26, whose findings drove the 2026-10-26 revision round); simulated trainee runs and a multi-model realism panel (pipelines built and dry-run tested, **pending API keys** — one command: `npm run eval:pending`); a pilot with 3–5 real adults (protocol prepared, not run).
+4. **Evaluate (in progress):** automated accessibility audit + scripted keyboard/reflow tests + aria-tree captures (done); agent design review and transcript-realism review in two passes, in-session (2026-10-25) and by a separate fresh-context reviewer agent ([evaluation/agent-review.md](evaluation/agent-review.md), 2026-10-26, whose findings drove the 2026-10-26 revision round); an agent-simulated trainee run and a single-agent transcript re-review (2026-11-11, [evaluation/results/](evaluation/results/)); a pilot with 3–5 real adults (protocol prepared, not run).
 
 ## Key design decisions
 
@@ -68,13 +68,13 @@ The full sessions, with numbered annotations naming each move and its effect: [t
 - Accessibility-tree captures (Playwright `ariaSnapshot()`) of the practice tool at every state — the documented fallback for VoiceOver automation, which does not function on the build OS (macOS 27). **No screen-reader testing has been performed**; a manual VoiceOver protocol is prepared ([evaluation/human-protocol/voiceover-manual-check.md](evaluation/human-protocol/voiceover-manual-check.md)).
 - Agent design review + transcript-realism review against the cited misconception research (labeled "Agent review"): an in-session pass by the authoring agent (2026-10-25) and a separate fresh-context reviewer pass (2026-10-26, [evaluation/agent-review.md](evaluation/agent-review.md)), whose findings were applied the same day. The same-model limitation is stated in [evaluation/METHODS.md](evaluation/METHODS.md).
 
-**Pending (built, dry-run tested; awaiting API keys):** simulated tutor-trainee runs (9 AI-simulated trainees across 3 personas × 3 experience levels, pre/post error-response tasks scored blind against the rubric's Domain 3 anchors — descriptive only) and a multi-model transcript-realism review panel (≥2 models, agreement reported). Run with `npm run eval:pending`. Until then the [results tables](evaluation/results/simulations-summary.md) read "PENDING: requires API key" and **no results exist anywhere in this repo.**
+**Agent-simulated (complete, 2026-11-11; not human results):** one AI agent (Claude, the Kiro build agent), with no API key, played 9 simulated tutor-trainees (3 personas × 3 experience levels) on the pilot's pre/post error-response tasks and scored the 54 responses against the rubric's Domain 3 anchors itself ([summary](evaluation/results/simulations-summary.md)). The same agent re-reviewed the six transcripts for realism ([summary](evaluation/results/review-panel-summary.md)). Single model and not blind: the planned cross-model blind scoring with agreement statistics was not reproduced. The run's value is its findings: a mislabeled post-task item, pre-task answers printed in Module 3, a wrong repair in strong transcript T2, and smaller fixes, all listed as open revisions in [CHANGELOG.md](CHANGELOG.md).
 
 **Not run (protocol prepared):** a pilot with 3–5 real adults — pre/post error-response tasks, blind rubric scoring, usability walkthrough ([evaluation/human-protocol/](evaluation/human-protocol/), [report template](docs/evaluation/pilot-report.md)).
 
 | Can show | Cannot show |
 |---|---|
-| Task clarity, scaffold gaps and realism flags from simulated runs (labeled AI-simulated) | Learning gains, statistical significance, or "validated with users" — simulated personas already know the content |
+| Task clarity, scaffold gaps and realism flags from the agent-simulated run (labeled agent-simulated) | Learning gains, statistical significance, or "validated with users": the simulating agent already knows the content |
 | That the content's claims trace to checkable primary sources | That the sources' own conclusions are correct (cited, not re-analyzed) |
 | Standards conformance of the rendered DOM (axe) + keyboard operability (Playwright) | How a daily screen-reader or switch user experiences the site |
 | Pilot participants' written error responses improving against rubric anchors (when run; small n, descriptive) | Effects on real students' learning, tutor behavior in real sessions, or results at scale |
@@ -91,12 +91,12 @@ The full sessions, with numbered annotations naming each move and its effect: [t
 - Run the pilot *before* the final module polish — the report template commits to ≥3 revisions, and real trainee confusion would likely reorder module priorities.
 - Add a second subject strand (e.g., ratios) to show the move vocabulary transfers beyond linear equations.
 - Build the coordinator's observation app (the rubric as a scoring form with the calibration activity built in) rather than keeping observation on paper.
-- After the pending runs: refresh [evaluation/METHODS.md](evaluation/METHODS.md), the results tables and the status lines above — the rerun procedure is written down.
+- Apply the open findings from the 2026-11-11 agent-simulated run (listed in [CHANGELOG.md](CHANGELOG.md)), then have a person or an independent reviewer rescore a sample to test the single-agent scores.
 
 ## Tools used
 
 - Markdown + Jekyll (Just the Docs v0.12.0, pinned) on GitHub Pages; vanilla HTML/JS for the practice tool.
-- Node.js evaluation pipelines (OpenAI-compatible endpoints, key-gated, dry-run tested); Playwright 1.57 + axe-core 4.11.1 for accessibility verification; gitleaks before publish.
+- Playwright 1.57 + axe-core 4.11.1 for accessibility verification; gitleaks before publish. The evaluation needs no API key.
 - AI-assisted authorship, disclosed: the modules, transcripts, tools and coaching materials were drafted with AI assistance under the author's design direction, then reviewed for evidence-tracing (every research claim was checked against its primary source), move-name consistency with the companion repo, and realism (two agent review passes are logged — in-session, then a separate fresh-context reviewer; a practitioner review remains open to the owner). All fictional content is labeled fictional.
 
 ## License and attribution

@@ -1,12 +1,11 @@
-# Results (pending pipelines)
+# Results (agent-simulated, 2026-11-11)
 
-Output summaries for the pending evaluation pipelines. **Nothing here is real until a pipeline is run with a configured `.env`.** Raw model outputs from a real run go to `evaluation/output/` (gitignored); the two summary files below are the only results files that get committed — by hand, after the run, per the rerun procedure in [`evaluation/METHODS.md`](../METHODS.md).
+Results of the agent-simulated evaluation round, run by one AI agent (Claude, the Kiro build agent) inside the build environment with no API key and no external model service. **None of these are human or real-learner results.** Methods and limitations: [`evaluation/METHODS.md`](../METHODS.md) §6.
 
-| File | Written by | Status |
-|---|---|---|
-| `simulations-summary.md` | `evaluation/run-simulations.mjs` (real run) | Pre-run placeholder — all results "PENDING: requires API key" |
-| `review-panel-summary.md` | `evaluation/run-review-panel.mjs` (real run) | Pre-run placeholder — all results "PENDING: requires API key" |
+| File | What it holds |
+|---|---|
+| [`simulations-summary.md`](simulations-summary.md) | 9 agent-simulated trainee runs (3 personas × 3 levels), 54 responses scored against the Domain 3 anchors, and the task/material findings |
+| [`simulation-runs.json`](simulation-runs.json) | Raw data for the run: every persona, response, score and feedback note |
+| [`review-panel-summary.md`](review-panel-summary.md) | Single-agent re-review of the six transcripts for realism (C1 to C4), with proposed edits |
 
-Dry-run stubs (never results) go to `dry-run/` at the repository root and are gitignored; every stub file is headed "DRY RUN – NOT REAL RESULTS". A dry run never writes into `evaluation/results/`.
-
-**Until a real run exists: no simulated transcripts, no scores, no verdicts exist anywhere in this repo.** The committed pages state pending status; nothing is fabricated.
+The earlier cross-model design (separate producer and blind scorer models, agreement reported) was replaced by this smaller single-agent run and was not reproduced. No agreement statistics exist.

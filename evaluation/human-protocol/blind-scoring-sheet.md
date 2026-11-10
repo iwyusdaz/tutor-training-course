@@ -46,4 +46,4 @@ One-sentence rationale: ______________________
 
 ## Why blind
 
-Pre/post scoring unblinded drifts toward confirming "the training worked" — the exact claim this pilot *cannot* make. Shuffling removes the temptation structurally. The same discipline is used by the (pending) AI pipelines, where MODEL_B and MODEL_C score pre and post sets without knowing which is which.
+Pre/post scoring unblinded drifts toward confirming "the training worked", the exact claim this pilot *cannot* make. Shuffling removes the temptation structurally. The 2026-11-11 agent-simulated run could not use this discipline: one agent wrote and scored every response, knowing which set it was (see [`results/simulations-summary.md`](../results/simulations-summary.md)). Human pilot scoring must stay blind.

@@ -53,6 +53,6 @@ This is the schedule a new tutor follows inside the fictional program ([full ver
 
 ## Status of these materials
 
-- Automated accessibility testing and agent-based design reviews are complete; AI-simulated tutor-trainee and review-panel evaluations are **pending**; no real tutors or students have used these materials. See [evaluation/METHODS.md](https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/METHODS.md) and the [pilot report placeholder](evaluation/pilot-report.md).
+- Automated accessibility testing and agent-based design reviews are complete. An agent-simulated tutor-trainee run and a transcript re-review are complete (one AI agent, single model; not human results). No real tutors or students have used these materials. See [evaluation/METHODS.md](https://github.com/iwyusdaz/tutor-training-course/blob/main/evaluation/METHODS.md) and the [pilot report placeholder](evaluation/pilot-report.md).
 - All session transcripts are **fictional, constructed for training purposes** — never recordings of real children.
 - Content is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); code is [MIT](https://opensource.org/license/mit).

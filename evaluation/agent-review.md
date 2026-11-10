@@ -2,6 +2,8 @@
 
 **Reviewer:** separate AI reviewer agent (fresh context), 2026-10-26. Limitation: the reviewer may share the same underlying model as the author. This is not human or educator review.
 
+**Note (2026-11-11):** this report is the 2026-10-26 record. Its references to pending API pipelines, `.env` gating and "PENDING: requires API key" markers describe the repo as it was then. Those pipelines have since been removed and replaced by an agent-simulated run that needs no API key; see [`results/`](results/) and [METHODS.md](METHODS.md) §6.
+
 **Label:** Agent review (heuristic evaluation + cognitive walkthrough + structured review + transcript realism review + citation verification). Per the portfolio rules (00-portfolio-overview.md §2), this pass is the *separate fresh-context reviewer* that the in-session review (2026-10-25) queued; it does not substitute for a practitioner/educator review or the pending multi-model panel.
 
 ---

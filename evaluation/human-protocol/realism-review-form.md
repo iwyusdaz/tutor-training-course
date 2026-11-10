@@ -1,6 +1,6 @@
 # Transcript realism review form
 
-Status: **used twice — pass 1 in-session (authoring agent, 2026-10-25, results below); pass 2 by a separate fresh-context reviewer agent (2026-10-26 — verdicts and corrections in the pass-2 section below and in [`evaluation/agent-review.md`](../agent-review.md) §6); multi-model panel pending via `run-review-panel.mjs`; practitioner review open.**
+Status: **used three times by agents: pass 1 in-session (authoring agent, 2026-10-25, results below); pass 2 by a separate fresh-context reviewer agent (2026-10-26; verdicts and corrections in the pass-2 section below and in [`evaluation/agent-review.md`](../agent-review.md) §6); single-agent re-review 2026-11-11 in [`results/review-panel-summary.md`](../results/review-panel-summary.md) (replaces the planned multi-model panel); practitioner review open.**
 
 Two uses:
 1. **Agent review (done, see limitation):** each fictional transcript is checked against the misconception research it claims to depict. Pass 1 was performed **by the authoring agent itself**; pass 2 (2026-10-26) by a **separate fresh-context reviewer agent that did not build the repo**. The form is written so any reviewer — agent or human — can re-run it unchanged.

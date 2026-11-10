@@ -1,6 +1,6 @@
 # Evaluation methods
 
-*Evaluation basis: 2026-10-26 (updated from 2026-10-25 after the separate-context agent review and its revision round). This document states what was evaluated, how, by what method, by whom, and what each piece of evidence can and cannot show. It is updated whenever a pending item runs.*
+*Evaluation basis: 2026-11-11 (agent-simulated round added and the API-key pipelines removed; earlier basis 2026-10-26, after the separate-context agent review and its revision round). This document states what was evaluated, how, by what method, by whom, and what each piece of evidence can and cannot show. It is updated whenever an evaluation runs.*
 
 ## Evaluation status at a glance
 
@@ -11,13 +11,12 @@
 | Keyboard, reflow, focus | Playwright 1.57.0 scripted keyboard-only task tests; 320 px reflow; focus assertions | **Complete** | [`evaluation/tests/keyboard-tests.mjs`](tests/keyboard-tests.mjs) |
 | Assistive-technology tree check | Playwright `ariaSnapshot()` of the practice tool at every step (Guidepup/VoiceOver unavailable — see §7) | **Complete** | [`evaluation/tests/aria-snapshot.mjs`](tests/aria-snapshot.mjs) |
 | Design review | **Agent review** — structured heuristic + cognitive-walkthrough review against a fixed form | **Complete (in-session 2026-10-25 + separate fresh-context pass 2026-10-26; see §4)** | [`evaluation/human-protocol/design-review-form.md`](human-protocol/design-review-form.md); findings: in-session fixes in [`CHANGELOG.md`](../CHANGELOG.md), fresh-context pass in [`evaluation/agent-review.md`](agent-review.md) |
-| Transcript realism review | **Agent review** — each fictional transcript checked against the cited misconception research (repo 03's misconception bank + sources) | **Complete (in-session 2026-10-25 + separate fresh-context pass 2026-10-26; see §4–§5)** | [`human-protocol/realism-review-form.md`](human-protocol/realism-review-form.md); fresh-context verdicts in [`evaluation/agent-review.md`](agent-review.md) §6 |
-| Multi-model review panel | ≥2 independent models re-review transcript realism; agreement reported | **PENDING: requires API key** | [`run-review-panel.mjs`](run-review-panel.mjs) |
-| Simulated tutor-trainee runs | 9+ AI-simulated trainees (3 personas × 3 experience levels) respond to pre/post error sets; scored against the rubric's Domain 3 anchors; descriptive only | **PENDING: requires API key** | [`run-simulations.mjs`](run-simulations.mjs) |
+| Transcript realism review | **Agent review**: each fictional transcript checked against the cited misconception research (repo 03's misconception bank + sources) | **Complete (in-session 2026-10-25, fresh-context pass 2026-10-26, single-agent re-review 2026-11-11; see §5)** | [`human-protocol/realism-review-form.md`](human-protocol/realism-review-form.md); verdicts in [`agent-review.md`](agent-review.md) §6 and [`results/review-panel-summary.md`](results/review-panel-summary.md) |
+| Simulated tutor-trainee runs | **Agent-simulated**: one AI agent played 9 trainees (3 personas × 3 experience levels) on the pre/post error sets and scored all 54 responses against the rubric's Domain 3 anchors itself; single model, not blind, descriptive only | **Complete (2026-11-11), with the limitations in §6** | [`results/simulations-summary.md`](results/simulations-summary.md), raw data in [`results/simulation-runs.json`](results/simulation-runs.json) |
 | Pilot with real people | 3–5 adults; pre/post error-response tasks; blind rubric scoring; usability walkthrough | **Not run — protocol prepared** | [`human-protocol/`](human-protocol/); template report in [`docs/evaluation/pilot-report.md`](../docs/evaluation/pilot-report.md) |
 | Screen reader testing | Manual VoiceOver protocol only (automation unavailable) | **Not run — protocol prepared** | [`human-protocol/voiceover-manual-check.md`](human-protocol/voiceover-manual-check.md) |
 
-**Plain-language status (mirrors the README):** automated accessibility testing and agent-based design reviews are complete. AI-simulated trainee and review-panel evaluations are pending. No real learners have tested this yet.
+**Plain-language status (mirrors the README):** automated accessibility testing and agent-based design reviews are complete. An agent-simulated trainee run and a transcript-realism re-review are complete; one AI agent played every trainee, scored every response and reviewed every transcript, so these are not human results. No real learners have tested this yet.
 
 ## 1 · Evidence verification (complete)
 
@@ -45,23 +44,23 @@ A structured review of every module, the transcripts, the practice tool and the 
 
 **Limitation, stated plainly:** same-author review is weaker than independent review, and both passes may run on the same underlying model family (pass 2 states this limitation itself) — so nothing here is an independent expert review. Everything in §4–§5 is labeled **"Agent review"** everywhere it appears (never "educator review" or "expert feedback"). It cannot substitute for the practitioner review of transcripts or the pilot, both of which remain open to the owner.
 
-## 5 · Transcript realism review (complete — two agent passes; panel pending)
+## 5 · Transcript realism review (complete: three agent passes)
 
 The six fictional transcripts were reviewed against the misconception research they claim to depict (M1–M5, the [misconception bank](https://github.com/iwyusdaz/socratic-ai-tutor/blob/main/spec/misconceptions.md) and its sources): does each scripted student error match the documented behavior of the misconception it targets; do the tutor responses match the moves each transcript claims; is the pacing plausible for 30 minutes. The [realism-review form](human-protocol/realism-review-form.md) records the checklist; verdicts per transcript are in the form's results section.
 
-**Pending:** a multi-model panel ([run-review-panel.mjs](run-review-panel.mjs), ≥2 models, agreement reported) and — the real validation — a practitioner (tutor/teacher) review, prepared in the human protocol. A realism review can find *inconsistency with the cited research*; it cannot certify that real classrooms sound like this.
+**Pass 3 (2026-11-11):** a single-agent re-review of all six transcripts against criteria C1 to C4, run in the build environment with no API key, replaced the planned multi-model panel. It re-derived every algebra line and found one issue the earlier passes missed: in strong transcript T2 ([5] and [6]) the student repairs `7x − 4` by subtracting 4 from both sides, which does not remove the −4, and the tutor and annotation endorse it. Verdicts and proposed edits: [`results/review-panel-summary.md`](results/review-panel-summary.md). This is one AI reviewer, so no agreement statistic exists, and it may share a model family with the earlier passes and the drafting agent. The real validation is still a practitioner (tutor or teacher) review, prepared in the human protocol. A realism review can find *inconsistency with the cited research*; it cannot certify that real classrooms sound like this.
 
-## 6 · Simulated tutor-trainee runs + review panel (pipelines ready, pending)
+## 6 · Simulated tutor-trainee runs (agent-simulated, complete)
 
-`npm run eval:pending` runs both pipelines (MODEL_A produces; MODEL_B and MODEL_C review — a model never judges its own output):
+Run on 2026-11-11 by one AI agent (Claude, the Kiro build agent) inside the build environment. No API key and no external model service was used. Results: [`results/simulations-summary.md`](results/simulations-summary.md); every response, score and persona feedback note is in [`results/simulation-runs.json`](results/simulation-runs.json).
 
-- **`run-simulations.mjs`** — 9+ simulated trainees (3 personas × 3 experience levels, drawn from the build plan's learner personas: a college junior, a career changer and a community volunteer — all fictional) answer a pre-set of three scripted student errors, "study" the module content, then answer a parallel post-set. Responses are scored against the rubric's Domain 3 anchors by MODEL_B and MODEL_C independently (blinded to pre/post ordering), with agreement reported. **Descriptive statistics only** — simulated personas already know the content, so pre/post differences *cannot* be read as learning; the pipeline exists to surface ambiguous tasks, missing scaffolding and unrealistic error scripts.
-- **`run-review-panel.mjs`** — MODEL_B and MODEL_C independently re-review all six transcripts for realism against the misconception research; verdicts and agreement are reported.
+- **What was run:** 9 simulated trainees (3 fictional personas from the build plan: Diego, a college junior; Grace, a career changer; Marcus, a community volunteer) × 3 experience levels. Each answered set A cold, then set B after reading Modules 3 and 4. Both sets are the pilot's task materials, verbatim. The agent then scored all 54 responses 0/1/2 on the four Domain 3 anchors from the blind scoring sheet, using three scoring conventions fixed in advance and recorded in the JSON.
+- **What it found:** eight task and material findings, recorded as open revisions in [`CHANGELOG.md`](../CHANGELOG.md) 1.1.0. The main ones: set B item 1 is an M1 item tagged M2, so pre/post item 1 are not parallel; Module 3's practice section prints model answers to the pre-task; the written tasks cannot measure wait time; Module 4 is barely exercised by the post-task.
+- **Descriptive scores:** mean anchor scores rose from pre to post (for example A2 1.30 to 1.70, n = 27 each). These numbers describe one agent's role-play and are **not** evidence of learning.
 
-Safety rails (both pipelines): missing or placeholder `.env` values → exit 1 with a clear message and **zero network calls**; `--dry-run` exercises the full pipeline with stub responses into `dry-run/`, labeled **"DRY RUN – NOT REAL RESULTS"**, never cited as evidence; every prompt, response and setting is saved raw to `evaluation/output/` (gitignored) for reproducibility; the two committed summaries in `evaluation/results/` are regenerated for hand-committing after a real run, and a dry run never writes into `evaluation/results/`. `.env.example` matches the portfolio-wide model-slot format.
+**Design limitation, stated plainly.** The original design had MODEL_A play the trainees and two other models (MODEL_B, MODEL_C) score blind, with responses shuffled into opaque codes and agreement (percent agreement, Cohen's kappa) reported, so that a model never judged its own output. **That design was not reproduced.** In this run the same agent produced and scored every response, knowing the persona, level and phase. There is no second scorer and no agreement statistic. The agent also already knows the module content, so the pre/post contrast is role-play. A rerun with a person or an independent second rater, using the materials in the JSON, is the way to test these scores.
 
-**Can show:** task clarity, scaffold gaps, realism flags — inputs to revision. **Cannot show:** learning gains, statistical significance, or "validated with users."
-
+**Can show:** task clarity, scaffold gaps, item problems: inputs to revision. **Cannot show:** learning gains, scorer reliability, statistical significance, or "validated with users." These are agent-simulated results and are never described as human or real-learner results.
 ## 7 · Screen reader testing (not run — protocol prepared)
 
 Automated VoiceOver control (Guidepup) does not function on the build machine's OS (macOS 27): the smoke test fails with "VoiceOver not supported." Per the portfolio's fallback rule, the substitutes are: the axe audit (§2), keyboard/focus tests (§3), and Playwright `ariaSnapshot()` accessibility-tree captures of the practice tool at every step ([evaluation/tests/aria-snapshot.mjs](tests/aria-snapshot.mjs), reviewed for names/roles/values; captures committed in `evaluation/tests/aria-snapshots/`).
@@ -75,3 +74,5 @@ The full kit is prepared in [`human-protocol/`](human-protocol/): [pilot protoco
 ## Changes made in response to evaluation so far
 
 Recorded in [`CHANGELOG.md`](../CHANGELOG.md) as they happen: the evidence-verification correction (§1), the agent review's accepted findings (§4), and the realism review's accepted transcript fixes (§5) are the first entries.
+
+The findings from the 2026-11-11 agent-simulated round (§5 pass 3 and §6) are listed in CHANGELOG 1.1.0 as open findings. None has been applied yet.

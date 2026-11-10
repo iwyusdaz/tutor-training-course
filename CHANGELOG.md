@@ -47,8 +47,17 @@ All notable changes to this repository. Dates are build dates; the build started
 - **F12:** realism-review form records corrected (T1 = 13 exchanges; the silently-failed C3 band for T4–T6 now carries recorded rationales; the pass-1 T3 note's mislabels flagged) and a pass-2 results section added with the fresh reviewer's per-transcript verdicts.
 - **Minors:** "Weeks 1" → "Week 1" (Session A); M4 probe wording fixed in Module 3 practice and exit-ticket bank item 16 ("what else is on that side" → "what did you divide on the other side"); Module 3's "misconception bank" link relabeled (the M1–M5 definitions live in the evidence notes). Remaining minors (M2, M4, M5, M6, M7) deferred with reasons — DECISIONS.md D17.
 
+## [1.1.0] (2026-11-11)
+### Changed
+- **Agent-simulated evaluation replaces the API-key pipelines.** One AI agent (Claude, the Kiro build agent) ran a smaller evaluation inside the build environment with no API key: 9 simulated trainee runs (3 personas × 3 levels, 54 responses scored against the Domain 3 anchors) and a single-agent transcript-realism re-review of all six transcripts. Results are in [`evaluation/results/`](evaluation/results/), labeled agent-simulated, single model and not blind. The cross-model blind design was not reproduced; METHODS.md §6 states the limitation.
+### Removed
+- `.env.example`, `evaluation/run-simulations.mjs`, `evaluation/run-review-panel.mjs`, `evaluation/lib/env.mjs`, the `eval:*` npm scripts, and the `.gitignore` entries for pipeline output. No part of the repo needs an API key.
+### Open findings (not yet applied)
+- From the simulated runs: set B item 1 is an M1 item tagged M2; Module 3's practice items print model answers to the pre-task; the cold pre-task conflicts with levels L2/L3; written tasks cannot measure wait time; Module 4 is barely exercised by the post-task; one Module 3 model answer leans on the M2 flip rule. Details: [`simulations-summary.md`](evaluation/results/simulations-summary.md).
+- From the realism re-review: T2 [5]–[6] broadcast a wrong repair (subtracting 4 instead of adding 4) in a strong anchor; T3 still labels Jayla's correct solve as M1, and Module 3's model excerpt repeats it; small arithmetic or wording mismatches in T4, T5 and T6. Details: [`review-panel-summary.md`](evaluation/results/review-panel-summary.md).
+
 ## [Unreleased]
-- Simulated trainee runs + multi-model realism panel — pending API keys (`npm run eval:pending`); summaries in `evaluation/results/` are hand-committed after a real run.
+- Revisions from the 2026-11-11 open findings above.
 - Pilot with 3–5 real adults (protocol prepared in `evaluation/human-protocol/`); report goes to `docs/evaluation/pilot-report.md`.
 - Manual VoiceOver check (protocol prepared; Guidepup automation non-functional on macOS 27 — no screen-reader testing claimed meanwhile).
 - Practitioner (tutor/teacher) realism review — the two agent passes (2026-10-25, 2026-10-26) are logged; a human practitioner review remains open.
